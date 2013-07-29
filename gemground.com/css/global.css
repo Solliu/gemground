@@ -1,0 +1,84 @@
+body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FFF;color:#000;
+font-family: "Microsoft YAHEI";}
+
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:underline;}
+a img{border:none;}
+ul,li{padding:0;margin:0;list-style: none;}
+.list-hor li{float:left;}
+
+section{width:960px;height:510px;margin:0 auto;}
+.cwrap{width:960px;margin:0 auto;}
+.thefirstsec{padding-top:80px;}
+.sectitle{padding:30px 30px 15px;width:900px;margin:0 auto;}
+
+header,footer{width:100%;background:#60a8fd;}
+header{height:78px;padding:1px 0;position:fixed;}
+#gemlogo{height:78px;}
+#mainnav{float:right;}
+#mainnav a{display:block;width:60px;height:78px;line-height:78px;text-align: center;color:#FFF;}
+#mainnav a:hover{background-color:#FFF;text-decoration:none;color:#60a8fd;}
+ #mainnav #navexpo{width:111px;}
+/*  #mainnav a{display:block;width:60px;height:78px;
+    background-image:url("images/mainnav.jpg");}
+  #mainnav #navhome{background-position:-27px 0;}
+  #mainnav #navpointofview{background-position:-87px 0;}
+  #mainnav #navservice{background-position:-147px 0;}
+  #mainnav #navworks{background-position:-207px 0;}
+  #mainnav #navclients{background-position:-267px 0;}
+  #mainnav #navexpo{width:111px;background-position:-327px 0;}
+  #mainnav #navhome:hover{background-position:-27px -78px;}
+  #mainnav #navpointofview:hover{background-position:-87px -78px;}
+  #mainnav #navservice:hover{background-position:-147px -78px;}
+  #mainnav #navworks:hover{background-position:-207px -78px;}
+  #mainnav #navclients:hover{background-position:-267px -78px;}
+  #mainnav #navexpo:hover{width:111px;background-position:-327px -78px;}
+  #mainnav a .aname{display:none;}
+*/
+#philosophy{height:420px;}
+/* pointofview */
+#pointofview{width:100%;background:#EFEFEF;}
+  #pointofview .cwrap{text-align:center;}
+   
+/* services */
+#service{}
+#service .cwrap{text-align:center;margin-top:30px;}
+  #service .cwrap img{margin:0 10px;vertical-align:top;}
+/* clients area */
+#clients .cwrap{width:901px;height:360px;padding:20px 30px 20px 29px;background-color:#EFEFEF;}
+#clientslist{}
+#clientslist li{float:left;list-style:none;}
+
+/* works */
+#works{height:575px;}
+#worklist{}
+#worklist li{width:160px;height:160px;}
+#worklist .workitem{text-align:center;line-height:160px;background:#EEE;}
+#worklist .workitem:hover{background:#AAA;}
+
+/* about */
+#about .cwrap{text-align:center;}
+  #memlist{width:770px;margin:40px auto;}
+  #memlist .teamicon{display: block;width:100px;height:100px;font-size:20px;line-height:1em;margin-bottom:24px;
+    color:#707070;
+    background:#FFF url(images/team.jpg);border-radius: 50px;margin:0 27px;
+-webkit-box-shadow: inset 0 0 9px 1px rgba(115,115,115,0.63);
+-moz-box-shadow: inset 0 0 9px 1px rgba(115,115,115,0.63);
+box-shadow: inset 0 0 9px 1px rgba(115,115,115,0.63);}
+  #memlist .teamicon:hover{text-decoration: none;color:#333;}
+  #memlist .mname{position:relative;top:120px;}
+  #memlist .team-sol{background-position:0 -100px;}
+  #memlist .team-11{background-position:-100px -100px;}
+  #memlist .team-gozi{background-position:-200px -100px;}
+  #memlist .team-dou{background-position:-300px -100px;}
+  #memlist .team-jie{background-position:-400px -100px;}
+  #memlist .team-sol:hover{background-position:0 0;}
+  #memlist .team-11:hover{background-position:-100px 0;}
+  #memlist .team-gozi:hover{background-position:-200px 0;}
+  #memlist .team-dou:hover{background-position:-300px 0;}
+  #memlist .team-jie:hover{background-position:-400px 0;}
+/* footer */
+footer{padding:15px 0; }
+#contactinfo{}
+#footernav{float:right;}
+
