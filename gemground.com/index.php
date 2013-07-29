@@ -1,5 +1,5 @@
 <?php
-include_once('header.php');
+require_once('header.php');
 
 
 ?>	<section id="philosophy" class="thefirstsec">
@@ -111,7 +111,7 @@ include_once('header.php');
 		</div>
 	</section>
 <?php
-include_once('footer.php');
+require_once('footer.php');
 
 
 ?>

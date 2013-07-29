@@ -1,5 +1,5 @@
 body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FFF;color:#000;
-font-family: "Microsoft YAHEI";}
+font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;}
 
 a{text-decoration:none;outline:none;}
 a:hover{text-decoration:underline;}
@@ -12,12 +12,13 @@ section{width:960px;height:510px;margin:0 auto;}
 .thefirstsec{padding-top:80px;}
 .sectitle{padding:30px 30px 15px;width:900px;margin:0 auto;}
 
-header,footer{width:100%;background:#60a8fd;}
-header{height:78px;padding:1px 0;position:fixed;}
-#gemlogo{height:78px;}
+header,footer{width:100%;background:#B5193C;}
+header{height:58px;padding:1px 0;position:fixed;}
+#gemlogo{height:58px;}
 #mainnav{float:right;}
-#mainnav a{display:block;width:60px;height:78px;line-height:78px;text-align: center;color:#FFF;}
-#mainnav a:hover{background-color:#FFF;text-decoration:none;color:#60a8fd;}
+#mainnav a{display:block;width:60px;height:58px;line-height:58px;text-align: center;color:#FFF;}
+#mainnav i{display:block;padding:0 10px 0 10px;height:58px;line-height:58px;text-align: center;color:#FFF;}
+#mainnav a:hover{text-decoration:none;margin-top:-3px;border-bottom: 4px solid #fff;}
  #mainnav #navexpo{width:111px;}
 /*  #mainnav a{display:block;width:60px;height:78px;
     background-image:url("images/mainnav.jpg");}
