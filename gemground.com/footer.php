@@ -1,6 +1,5 @@
 	<footer><div class="cwrap">
 		<ul id="footernav" class="list-hor">
-			<li><a href="javascript:void(0);"><img src="images/gem01_26-92.jpg" /></a></li>
 			<li><img src="images/gem01_107.jpg" /></li>
 			<li><a href="javascript:void(0);"><img src="images/gem01_28-93.jpg" /></a></li>
 			<li><img src="images/gem01_107.jpg" /></li>
