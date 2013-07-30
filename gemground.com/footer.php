@@ -8,9 +8,6 @@
 		</div>
 	</footer>
 	<ul id="flow">
-		<li>您的电话</li>
-		<li></li>
-		<li>提交需求</li>
 		<li>在线咨询</li>
 		<li><img src="images/gem-qcode.jpg"></li>
 		<li><a href="#">回到顶部</a></li>

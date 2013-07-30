@@ -47,6 +47,7 @@ require_once('header.php');
 			</div>
 		</div>
 	</section>
+	<div id="clients-bg">
 	<section id="clients" class="container">
 		<a name="clients"></a>
 		<div class="sectitle">聚广成员曾服务过</div>
@@ -82,6 +83,7 @@ require_once('header.php');
 			<li class="span2"><img src="images/clients-23.jpg" alt=""></li>
 		</div>
 	</section>
+	</div>
 	<section id="about" class="container"> 
 		<a name="about"></a>
 			<div class="row">
