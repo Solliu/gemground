@@ -2,34 +2,22 @@
 require_once('header.php');
 
 ?>	
-	<section id="banner" class="thefirstsec container">
-		<a name="banner"></a>
-			<div class="row">
-				<div id="slide-container" style="padding-top:50px;">
-					<div id="slides">
-						<img src="images/gem01_16.jpg" />
-						<img src="images/gem01_16.jpg" />
-						<img src="images/gem01_16.jpg" />
-					</div>
-				</div>
-			</div>
-		<script type="text/javascript">
-		    $(function() {
-		      $('#slides').slidesjs({
-					width: 940,
-					play: {
-						active: true,
-						auto: true,
-						interval: 4000,
-						swap: true
-					},
-					navigation: {
-						active: false
-					}
-			    });
-		    });
-		</script>
-	</section>
+	<div id="banner" class="carousel slide container">
+	  <ol class="carousel-indicators">
+	    <li data-target="#banner" data-slide-to="0" class="active"></li>
+	    <li data-target="#banner" data-slide-to="1"></li>
+	    <li data-target="#banner" data-slide-to="2"></li>
+	  </ol>
+	  <!-- Carousel items -->
+	  <div class="carousel-inner">
+	    <div class="item"><img src="images/banner1-1170.jpg"></div>
+	    <div class="active item"><img src="images/banner2-1170.jpg"></div>
+	    <div class="item"><img src="images/banner3-1170.jpg"></div>
+	  </div>
+	  <!-- Carousel nav -->
+	  <a class="carousel-control left" href="#banner" data-slide="prev">&lsaquo;</a>
+	  <a class="carousel-control right" href="#banner" data-slide="next">&rsaquo;</a>
+	</div>
 	<section id="pointofview" class="container">
 		<a name="pointofview"></a>
 			<div class="sectitle">聚广的观点</div>
@@ -50,7 +38,7 @@ require_once('header.php');
 	<div id="clients-bg">
 	<section id="clients" class="container">
 		<a name="clients"></a>
-		<div class="sectitle">聚广成员曾服务过</div>
+		<div class="sectitle">聚广成员曾服务过的品牌</div>
 		<div class="row">
 			<li class="span2"><img src="images/clients-01.jpg" alt=""></li>
 			<li class="span2"><img src="images/clients-02.jpg" alt=""></li>

@@ -40,6 +40,11 @@ header{height:48px;padding:1px 0;position:fixed;}
   line-height:48px;text-align: center;color:#FFF;text-shadow: none;
   margin: 0px;
 }
+.navbar .btn-navbar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 
 #mainnav a{line-height:48px;text-align: center;color:#FFF;text-shadow: none;}
 #mainnav a:hover{text-decoration:none;background: #8c0f28;}
@@ -54,6 +59,19 @@ ul[class=slidesjs-pagination] a:hover{background:#B5193C;}
 ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B5193C;}
 /* Theme end*/
 
+/**/
+#banner{
+  padding-top: 80px;
+}
+.carousel-control {
+  top: 60%;
+}
+.carousel-indicators{
+  top:auto;
+  bottom: 15px;
+  left: 50%;
+}
+/* Banner */
 
 /* pointofview */
 #pointofview{}
@@ -116,6 +134,5 @@ footer{
 #flow li{
   line-height: 20px;
   text-align: center;
-  width: 80px;
   padding: 5px;
 }

@@ -79,7 +79,7 @@
           </a>
      
           <!-- Be sure to leave the brand out there if you want it shown -->
-          <span class="brand"><img src="images/gem-logo.png" /></span>
+          <span class="brand span2"><img src="images/gem-logo.png" /></span>
      
           <!-- Everything you want hidden at 940px or less, place within here -->
           <div class="nav-collapse collapse">
