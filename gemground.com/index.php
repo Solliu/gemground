@@ -34,22 +34,30 @@ require_once('header.php');
 		<a name="clients"></a>
 		<div class="row">
 			<div class="sectitle">聚广成员曾服务过</div>
-			<ul id="clientslist">
-				<li><img src="images/logo.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-43.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-44.jpg" width="151" height="60" alt=""></li>
-				<li><img src="images/logo-45.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-46.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-47.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-49.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-50.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-51.jpg" width="151" height="60" alt=""></li>
-				<li><img src="images/logo-52.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-53.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-54.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-55.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-56.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-57.jpg" width="151" height="60" alt=""></li>
+			<ul class="row">
+				<li class="span2"><img src="images/clients-01.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-02.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-03.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-04.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-05.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-06.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-07.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-08.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-09.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-10.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-11.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-12.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-13.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-14.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-15.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-16.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-17.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-18.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-19.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-20.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-21.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-22.jpg" alt=""></li>
+				<li class="span2"><img src="images/clients-23.jpg" alt=""></li>
 			</ul>
 		</div>
 	</section>
