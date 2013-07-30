@@ -5,15 +5,40 @@ require_once('header.php');
 ?>	<section id="philosophy" class="thefirstsec">
 		<a name="philosophy"></a>
 		<div class="cwrap">
+			<div id="slide-container" style="padding-top:50px;">
+				<div id="slides">
 			<img src="images/gem01_16.jpg" />
+			<img src="images/gem01_16.jpg" />
+			<img src="images/gem01_16.jpg" />
+			<img src="images/gem01_16.jpg" />
+			<img src="images/gem01_16.jpg" />
+			<img src="images/gem01_16.jpg" />
+				</div>
+			</div>
 		</div>
 	</section>
 	<section id="pointofview">
 		<a name="pointofview"></a>
 		<div class="sectitle"><img src="images/gem01_20.jpg" /></div>
 		<div class="cwrap">
-			<img src="images/gem01_20-17.jpg" style="padding-top:50px;"/>
+			<img src="images/gem01_20-17.jpg"/>
 		</div>
+		<!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+	  <script type="text/javascript">
+		$(function() {
+		  $('#slides').slidesjs({
+			width: $('#slide-container').width(),
+			height: $('#slide-container').height(),
+			play: {
+			  active: true,
+			  auto: true,
+			  interval: 4000,
+			  swap: true
+			}
+		  });
+		});
+	  </script>
+	  <!-- End SlidesJS Required -->
 	</section>
 	<section id="service">
 		<a name="service"></a>
