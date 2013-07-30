@@ -2,32 +2,38 @@
 require_once('header.php');
 
 
-?>	<section id="philosophy" class="thefirstsec">
-		<a name="philosophy"></a>
-		<div class="cwrap">
-			<img src="images/gem01_16.jpg" />
+?>	<section id="banner" class="thefirstsec">
+		<a name="banner"></a>
+		<div class="row">
+			<div class="cwrap">
+				<img src="images/gem01_16.jpg" />
+			</div>
 		</div>
 	</section>
-	<section id="pointofview">
+	<section id="pointofview" class="container">
 		<a name="pointofview"></a>
-		<div class="sectitle"><img src="images/gem01_20.jpg" /></div>
-		<div class="cwrap">
-			<img src="images/gem01_20-17.jpg" style="padding-top:50px;"/>
+			<div class="row">
+			<div class="sectitle"><img src="images/gem01_20.jpg" /></div>
+			<div class="cwrap">
+				<img src="images/gem01_20-17.jpg" style="padding-top:50px;"/>
+			</div>
 		</div>
 	</section>
-	<section id="service">
+	<section id="service" class="container">
 		<a name="service"></a>
-		<div class="sectitle"><img src="images/gem01_29.jpg" /></div>
-		<div class="cwrap">
-			<img src="images/gem01_38.jpg" style="margin-top:47px;"/>
-			<img src="images/gem01_36.jpg" style="margin-top:30px;" />
-			<img src="images/gem01_32.jpg"" />
+		<div class="row">
+			<div class="sectitle">我们的服务</div>
+			<div class="cwrap">
+				<img src="images/gem01_38.jpg" style="margin-top:47px;"/>
+				<img src="images/gem01_36.jpg" style="margin-top:30px;" />
+				<img src="images/gem01_32.jpg" />
+			</div>
 		</div>
 	</section>
-	<section id="clients">
+	<section id="clients" class="container">
 		<a name="clients"></a>
-		<div class="sectitle"><img src="images/gem01_45.jpg" /></div>
-		<div class="cwrap">
+		<div class="row">
+			<div class="sectitle">聚广成员曾服务过</div>
 			<ul id="clientslist">
 				<li><img src="images/logo.jpg" width="150" height="60" alt=""></li>
 				<li><img src="images/logo-43.jpg" width="150" height="60" alt=""></li>
@@ -44,63 +50,18 @@ require_once('header.php');
 				<li><img src="images/logo-55.jpg" width="150" height="60" alt=""></li>
 				<li><img src="images/logo-56.jpg" width="150" height="60" alt=""></li>
 				<li><img src="images/logo-57.jpg" width="151" height="60" alt=""></li>
-				<li><img src="images/logo-58.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-59.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-60.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-62.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-63.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-64.jpg" width="151" height="60" alt=""></li>
-				<li><img src="images/logo-65.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-66.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-67.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-69.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-70.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-71.jpg" width="151" height="60" alt=""></li>
-				<li><img src="images/logo-72.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-73.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-74.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-76.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-77.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-78.jpg" width="151" height="60" alt=""></li>
-				<li><img src="images/logo-79.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-80.jpg" width="150" height="60" alt=""></li>
-				<li><img src="images/logo-81.jpg" width="150" height="60" alt=""></li>
 			</ul>
 		</div>
 	</section>
-	<section id="works">
-		<a name="works"></a>
-		<div class="sectitle"><img src="images/gem01_83.jpg" /></div>
-		<div class="cwrap">
-			<ul id="worklist" class="list-hor">
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<!-- row -->
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<!-- row -->
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-				<li><div class="workitem">work</div></li>
-			</ul>
-		</div>
-	</section>
-	<section id="about">
+	<section id="about" class="container">
 		<a name="about"></a>
-		<div class="sectitle"><img src="images/gem01_83.jpg" /></div>
-		<div class="cwrap">
-			<img src="images/gem01_83-89.jpg" />
+		<div class="row">
+			<div class="sectitle span2">我们的团队</div>
+			<div class="span12">
+			<p>聚广由一群精通品牌营销、热爱互联网的人组成，我们运用互联网思维为品牌服务。<br/>聚广人在品牌营销、互联网、电子商务领域都有丰富的实战经验，能为客户提供量身定做的完整解决方案。</p>
+			<p>聚广人坚信，互联网思维将彻底改变品牌营销。<br/>受众研究、数据挖掘、数据分析将从每个环节上对品牌策略提供支持， 让营销成本更低廉、更透明， 让效果可预测、更精准、更可控。</p>
+			<h3>聚广，品牌数字整合营销专家。</h3>
+			</div>
 			<ul id="memlist" class="list-hor">
 				<li><a class="teamicon team-sol" target="_blank" href="http://weibo.com/soooool"><span class="mname">刘洋</span></a></li>
 				<li><a class="teamicon team-11" target="_blank" href="http://weibo.com/lemo11"><span class="mname">姚珧</span></a></li>
@@ -108,6 +69,7 @@ require_once('header.php');
 				<li><a class="teamicon team-dou" target="_blank" href="http://weibo.com/xiaodoudeal"><span class="mname">小豆</span></a></li>
 				<li><a class="teamicon team-jie" target="_blank" href="http://weibo.com/u/1853933265"><span class="mname">小洁</span></a></li>
 			</ul>
+			</div>
 		</div>
 	</section>
 <?php

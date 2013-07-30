@@ -1,5 +1,8 @@
 body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FFF;color:#000;
-font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;}
+font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+font-size: 14px;
+line-height: 20px;
+}
 
 a{text-decoration:none;outline:none;}
 a:hover{text-decoration:underline;}
@@ -10,9 +13,14 @@ ul,li{padding:0;margin:0;list-style: none;}
 section{width:960px;height:510px;margin:0 auto;}
 .cwrap{width:960px;margin:0 auto;}
 .thefirstsec{padding-top:80px;}
-.sectitle{padding:30px 30px 15px;width:900px;margin:0 auto;}
+.sectitle{
+  padding:10px 10px 10px;width:900px;margin:20px auto 0px 0px;
+  font-size: 20px;
+  border-left: 10px solid #cdcdcd;
+  padding-left:20px; 
+}
 
-header,footer{width:100%;background:#B5193C;}
+header{width:100%;background:#B5193C;}
 header{height:58px;padding:1px 0;position:fixed;}
 #gemlogo{height:58px;}
 #mainnav{float:right;}
@@ -36,7 +44,8 @@ header{height:58px;padding:1px 0;position:fixed;}
   #mainnav #navexpo:hover{width:111px;background-position:-327px -78px;}
   #mainnav a .aname{display:none;}
 */
-#philosophy{height:420px;}
+
+#banner{height:420px;}
 /* pointofview */
 #pointofview{width:100%;background:#EFEFEF;}
   #pointofview .cwrap{text-align:center;}
@@ -58,7 +67,7 @@ header{height:58px;padding:1px 0;position:fixed;}
 #worklist .workitem:hover{background:#AAA;}
 
 /* about */
-#about .cwrap{text-align:center;}
+#about p,#about h3{text-align:center;}
   #memlist{width:770px;margin:40px auto;}
   #memlist .teamicon{display: block;width:100px;height:100px;font-size:20px;line-height:1em;margin-bottom:24px;
     color:#707070;
@@ -79,7 +88,26 @@ box-shadow: inset 0 0 9px 1px rgba(115,115,115,0.63);}
   #memlist .team-dou:hover{background-position:-300px 0;}
   #memlist .team-jie:hover{background-position:-400px 0;}
 /* footer */
-footer{padding:15px 0; }
-#contactinfo{}
+footer{
+  padding:10px 0 20px 0;background: #555555}
+#contactinfo{
+  line-height: 20px;
+  color: #fff;
+}
 #footernav{float:right;}
 
+/* flow */
+#flow{
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  padding: 10px;
+  background: #efefef;
+  color: #fff;
+}
+#flow li{
+  line-height: 20px;
+  text-align: center;
+  width: 80px;
+  padding: 5px;
+}
