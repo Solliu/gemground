@@ -28,24 +28,21 @@ header{height:58px;padding:1px 0;position:fixed;}
 #mainnav i{display:block;padding:0 10px 0 10px;height:58px;line-height:58px;text-align: center;color:#FFF;}
 #mainnav a:hover{text-decoration:none;margin-top:-3px;border-bottom: 4px solid #fff;}
  #mainnav #navexpo{width:111px;}
-/*  #mainnav a{display:block;width:60px;height:78px;
-    background-image:url("images/mainnav.jpg");}
-  #mainnav #navhome{background-position:-27px 0;}
-  #mainnav #navpointofview{background-position:-87px 0;}
-  #mainnav #navservice{background-position:-147px 0;}
-  #mainnav #navworks{background-position:-207px 0;}
-  #mainnav #navclients{background-position:-267px 0;}
-  #mainnav #navexpo{width:111px;background-position:-327px 0;}
-  #mainnav #navhome:hover{background-position:-27px -78px;}
-  #mainnav #navpointofview:hover{background-position:-87px -78px;}
-  #mainnav #navservice:hover{background-position:-147px -78px;}
-  #mainnav #navworks:hover{background-position:-207px -78px;}
-  #mainnav #navclients:hover{background-position:-267px -78px;}
-  #mainnav #navexpo:hover{width:111px;background-position:-327px -78px;}
-  #mainnav a .aname{display:none;}
-*/
 
 #banner{height:420px;}
+
+
+/* slidesjs Theme */
+#slides{position:relative;}
+.slidesjs-play, .slidesjs-stop{position:absolute;left:-99999px;}
+ul[class=slidesjs-pagination]{position:absolute;top:398px;left:50%;margin-left:-46px;width:100px;z-index:999;}
+ul[class=slidesjs-pagination] a{display:block;float:left;margin-right:8px;text-indent: -99999px;
+  width:12px;height:12px;border-radius:6px;background:#C5C5C5;}
+ul[class=slidesjs-pagination] a:hover{background:#B5193C;}
+ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B5193C;}
+/* Theme end*/
+
+
 /* pointofview */
 #pointofview{width:100%;background:#EFEFEF;}
   #pointofview .cwrap{text-align:center;}

@@ -1,13 +1,35 @@
 <?php
 require_once('header.php');
 
-
 ?>	<section id="banner" class="thefirstsec">
 		<a name="banner"></a>
 		<div class="row">
 			<div class="cwrap">
-				<img src="images/gem01_16.jpg" />
+				<div id="slide-container" style="padding-top:50px;">
+					<div id="slides">
+		<img src="images/gem01_16.jpg" />
+		<img src="images/gem01_16.jpg" />
+		<img src="images/gem01_16.jpg" />
+					</div>
+				</div>
 			</div>
+<script type="text/javascript">
+    $(function() {
+      $('#slides').slidesjs({
+			width: 940,
+			height: 528,
+			play: {
+				active: true,
+				auto: true,
+				interval: 4000,
+				swap: true
+			},
+			navigation: {
+				active: false
+			}
+	    });
+    });
+</script>
 		</div>
 	</section>
 	<section id="pointofview" class="container">

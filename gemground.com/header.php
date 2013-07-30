@@ -7,6 +7,49 @@
     <link href="css/global.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    <style type="text/css">
+    #slides {
+      display: none
+    }
+
+    .slide-container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      .slide-container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .slide-container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .slide-container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .slide-container {
+        width: 1170px
+      }
+    }
+    </style>
+<!-- SlidesJS Required: -->
+
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+	<script src="js/jquery.1.10.2.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
   </head>
   <body>
 	<header><div class="cwrap">

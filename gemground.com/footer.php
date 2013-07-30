@@ -16,7 +16,6 @@
 		<li><a href="#">回到顶部</a></li>
 	</ul>
 	<!-- scripts -->
-    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
    	</div>
   </body>
