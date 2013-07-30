@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="css/global.css" rel="stylesheet" media="screen">
-<!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
     <style type="text/css">
     #slides {
       display: none
@@ -53,7 +55,7 @@
 	<header><div class="cwrap">
 		<nav id="mainnav">
 			<ul class="list-hor">
-				<li><a id="navhome" href="#philosophy"><span class="aname">首页</span></a></li>
+				<li><a id="navhome" href="#banner"><span class="aname">首页</span></a></li>
 				<li><a id="navpointofview" href="#pointofview"><span class="aname">观点</span></a></li>
 				<li><a id="navservice" href="#service"><span class="aname">服务</span></a></li>
 				<li><a id="navworks" href="#works"><span class="aname">案例</span></a></li>

@@ -1,5 +1,8 @@
 body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FFF;color:#000;
-font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;}
+font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+font-size: 14px;
+line-height: 20px;
+}
 
 a{text-decoration:none;outline:none;}
 a:hover{text-decoration:underline;}
@@ -10,9 +13,14 @@ ul,li{padding:0;margin:0;list-style: none;}
 section{width:960px;height:510px;margin:0 auto;}
 .cwrap{width:960px;margin:0 auto;}
 .thefirstsec{padding-top:80px;}
-.sectitle{padding:30px 30px 15px;width:900px;margin:0 auto;}
+.sectitle{
+  padding:10px 10px 10px;width:900px;margin:20px auto 0px 0px;
+  font-size: 20px;
+  border-left: 10px solid #cdcdcd;
+  padding-left:20px; 
+}
 
-header,footer{width:100%;background:#B5193C;}
+header{width:100%;background:#B5193C;}
 header{height:58px;padding:1px 0;position:fixed;}
 #gemlogo{height:58px;}
 #mainnav{float:right;}
@@ -20,23 +28,21 @@ header{height:58px;padding:1px 0;position:fixed;}
 #mainnav i{display:block;padding:0 10px 0 10px;height:58px;line-height:58px;text-align: center;color:#FFF;}
 #mainnav a:hover{text-decoration:none;margin-top:-3px;border-bottom: 4px solid #fff;}
  #mainnav #navexpo{width:111px;}
-/*  #mainnav a{display:block;width:60px;height:78px;
-    background-image:url("images/mainnav.jpg");}
-  #mainnav #navhome{background-position:-27px 0;}
-  #mainnav #navpointofview{background-position:-87px 0;}
-  #mainnav #navservice{background-position:-147px 0;}
-  #mainnav #navworks{background-position:-207px 0;}
-  #mainnav #navclients{background-position:-267px 0;}
-  #mainnav #navexpo{width:111px;background-position:-327px 0;}
-  #mainnav #navhome:hover{background-position:-27px -78px;}
-  #mainnav #navpointofview:hover{background-position:-87px -78px;}
-  #mainnav #navservice:hover{background-position:-147px -78px;}
-  #mainnav #navworks:hover{background-position:-207px -78px;}
-  #mainnav #navclients:hover{background-position:-267px -78px;}
-  #mainnav #navexpo:hover{width:111px;background-position:-327px -78px;}
-  #mainnav a .aname{display:none;}
-*/
-#philosophy{height:420px;}
+
+#banner{height:420px;}
+
+
+/* slidesjs Theme */
+#slides{position:relative;}
+.slidesjs-play, .slidesjs-stop{position:absolute;left:-99999px;}
+ul[class=slidesjs-pagination]{position:absolute;top:398px;left:50%;margin-left:-46px;width:100px;z-index:999;}
+ul[class=slidesjs-pagination] a{display:block;float:left;margin-right:8px;text-indent: -99999px;
+  width:12px;height:12px;border-radius:6px;background:#C5C5C5;}
+ul[class=slidesjs-pagination] a:hover{background:#B5193C;}
+ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B5193C;}
+/* Theme end*/
+
+
 /* pointofview */
 #pointofview{width:100%;background:#EFEFEF;}
   #pointofview .cwrap{text-align:center;}
@@ -58,7 +64,7 @@ header{height:58px;padding:1px 0;position:fixed;}
 #worklist .workitem:hover{background:#AAA;}
 
 /* about */
-#about .cwrap{text-align:center;}
+#about p,#about h3{text-align:center;}
   #memlist{width:770px;margin:40px auto;}
   #memlist .teamicon{display: block;width:100px;height:100px;font-size:20px;line-height:1em;margin-bottom:24px;
     color:#707070;
@@ -79,7 +85,26 @@ box-shadow: inset 0 0 9px 1px rgba(115,115,115,0.63);}
   #memlist .team-dou:hover{background-position:-300px 0;}
   #memlist .team-jie:hover{background-position:-400px 0;}
 /* footer */
-footer{padding:15px 0; }
-#contactinfo{}
+footer{
+  padding:10px 0 20px 0;background: #555555}
+#contactinfo{
+  line-height: 20px;
+  color: #fff;
+}
 #footernav{float:right;}
 
+/* flow */
+#flow{
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  padding: 10px;
+  background: #efefef;
+  color: #fff;
+}
+#flow li{
+  line-height: 20px;
+  text-align: center;
+  width: 80px;
+  padding: 5px;
+}
