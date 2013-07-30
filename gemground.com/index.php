@@ -34,7 +34,7 @@ require_once('header.php');
 		<a name="clients"></a>
 		<div class="row">
 			<div class="sectitle">聚广成员曾服务过</div>
-			<ul class="row">
+			<ul class="span12">
 				<li class="span2"><img src="images/clients-01.jpg" alt=""></li>
 				<li class="span2"><img src="images/clients-02.jpg" alt=""></li>
 				<li class="span2"><img src="images/clients-03.jpg" alt=""></li>
