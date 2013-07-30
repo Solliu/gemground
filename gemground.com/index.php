@@ -5,8 +5,10 @@ require_once('header.php');
 		<a name="banner"></a>
 		<div class="row">
 			<div class="cwrap">
-				<div id="slide-container" style="padding-top:50px;">
+				<div id="slide-container">
 					<div id="slides">
+		<img src="images/gem01_16.jpg" />
+		<img src="images/gem01_16.jpg" />
 		<img src="images/gem01_16.jpg" />
 		<img src="images/gem01_16.jpg" />
 		<img src="images/gem01_16.jpg" />
