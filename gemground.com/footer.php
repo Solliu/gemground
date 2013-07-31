@@ -38,5 +38,6 @@
    
    	<!-- scripts -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/gemglobal.js"></script>
   </body>
 </html>

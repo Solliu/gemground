@@ -23,17 +23,19 @@
           </a>
      
           <!-- Be sure to leave the brand out there if you want it shown -->
-          <span class="brand span2"><img src="images/gem-logo.png" /></span>
+          <span class="brand span2">
+            <img class="cn" src="images/gem-logo.png" />
+          </span>
      
           <!-- Everything you want hidden at 940px or less, place within here -->
           <div class="nav-collapse collapse">
             <!-- .nav, .navbar-search, .navbar-form, etc -->
               <ul class="nav">
-                <li ><a id="navhome" href="#banner"><span class="aname">首页</span></a></li>
+                <li><a id="navhome" href="#banner"><span class="aname">首页</span></a></li>
                 <li><a id="navservice" href="#service"><span class="aname">服务与方法</span></a></li>
                 <li><a id="navworks" href="#clients"><span class="aname">案例经验</span></a></li>
                 <li><a id="navclients" href="#about"><span class="aname">关于我们</span></a></li>
-                <li><p class="aname">・品牌咨询・标志设计・VI 设计・网站设计・APP设计・微信营销・400 1234 567・</p></li>
+           <!-- <li><p class="aname">・品牌咨询・标志设计・VI 设计・网站设计・APP设计・微信营销・400 1234 567・</p></li>-->
               </ul>
           </div>
     </div>
