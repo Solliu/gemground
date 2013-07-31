@@ -66,8 +66,14 @@ require_once('header.php');
 		<a name="pointofview"></a>
 			<div class="sectitle">服务流程</div>
 			<div class="row">
-				<div class="span12">
-					<img src="images/process.png">
+				<div class="span4">
+					<img src="images/process-01.jpg">
+				</div>
+				<div class="span4">
+					<img src="images/process-02.jpg">
+				</div>
+				<div class="span4">
+					<img src="images/process-03.jpg">
 				</div>
 			</div>
 	</section>
