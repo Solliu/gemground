@@ -2,8 +2,13 @@ body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FF
 font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
 font-size: 14px;
 line-height: 20px;
-background-image: url(images/shattered_@2X.png);
+background-image: url("images/shattered_@2X.png");
 }
+
+.w00{/*无限宽*/}
+.w2000{/*小于2000*/}
+.w980{/*小于980*/}
+.w768{/*小于768*/}
 
 a{text-decoration:none;outline:none;}
 a:hover{text-decoration:underline;}
@@ -19,12 +24,8 @@ ul,li{padding:0;margin:0;list-style: none;}
   border-left: 10px solid #B5193C;
   padding-left:20px; 
 }
-#wrap{
-  
-}
 
-header{width:100%;z-index: 999999}
-header{height:48px;padding:1px 0;position:fixed;}
+header{width:100%;height:48px;padding:1px 0;position:fixed;z-index: 999999;margin-top:-1px;}
 #mainnav{
   background-color: #B5193C;
   background-image: none;
@@ -51,7 +52,27 @@ header{height:48px;padding:1px 0;position:fixed;}
 
 #mainnav a{line-height:48px;text-align: center;color:#FFF;text-shadow: none;}
 #mainnav a:hover{text-decoration:none;background: #8c0f28;}
-#mainnav>.container>span{line-height:48px;text-align: center;color:#FFF;text-shadow: none;padding: 0px 15px 0px 0px;}
+
+#gemlogo{}
+  .smalllogo .smalllogo,
+  .biglogo .biglogo{display:block;}
+  .smalllogo .biglogo,
+  .biglogo .smalllogo{display:none;}
+@media (min-width:980px){
+  #gemlogo img{margin:0;}
+}
+@media (max-width:979px){
+  #gemlogo{margin-top:-5px;}
+  #gemlogo img{margin:0 auto;}
+  #gemlogo[class=smalllogo]{margin-top:-8px;}
+}
+@media (min-width:768px) and (max-width:979px){
+  .gemlogowrap{width:100%;margin-left: 10px;}
+}
+@media (max-width:767px){
+  #flow{display:none;}
+}
+
 /* slidesjs Theme */
 #slides{position:relative;}
 .slidesjs-play, .slidesjs-stop{position:absolute;left:-99999px;}
@@ -90,7 +111,7 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
   padding-top: 80px;
   padding-bottom: 80px;
 }
-   
+#pointofview > .container > .row > .span4 {text-align:center;}
 /* services */
 #service{
   background-color: #e8bd25;
@@ -127,6 +148,7 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
   padding-top: 80px;
   padding-bottom: 80px;
 }
+#clients > .container > .row > .span4 {text-align:center;}
 #clients li img{
   padding-bottom: 20px;
   text-align: center;
@@ -143,7 +165,8 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 }
 #about p,#about h3{text-align:center;}
   #memlist{margin-bottom: 80px;margin-top: 40px;text-align: center;}
-  #memlist .teamicon{display: block;width:100px;height:100px;font-size:20px;line-height:1em;margin-bottom:24px;
+  #memlist li{text-align:center;}
+  #memlist .teamicon{display: inline-block;width:100px;height:100px;font-size:20px;line-height:1em;margin-bottom:24px;
     color:#707070;
     background:#FFF url(images/team.jpg);border-radius: 50px;margin:0 27px;}
   #memlist .teamicon:hover{text-decoration: none;color:#333;}
