@@ -29,7 +29,6 @@ header{height:48px;padding:1px 0;position:fixed;}
   background-color: #B5193C;
   background-image: none;
   border: none;
-  border-bottom: 1px solid #a31636;
   box-shadow: none;
 }
 .navbar .nav>li>a {
@@ -64,7 +63,9 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 
 /**/
 #banner{
-  padding-top: 60px;
+  background: #101535;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .carousel-control {
   top: 50%;
@@ -84,13 +85,16 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 
 /* pointofview */
 #pointofview{
-  background-color: #fff;
-  padding-bottom: 20px;
+  background-color: #14b28f;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
    
 /* services */
 #service{
-  background-color: #efefef;
+  background-color: #e8bd25;
+  padding-top: 80px; 
+  padding-bottom: 80px;
 }
 #service img{margin:0 10px;vertical-align:middle;}
 #products{
@@ -119,6 +123,8 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 /* clients area */
 #clients{
   background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 #clients li img{
   padding-bottom: 20px;
@@ -129,7 +135,10 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 
 /* about */
 #about{
-  background-color: #efefef;
+  background-color: #464695;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 #about p,#about h3{text-align:center;}
   #memlist{margin-bottom: 80px;margin-top: 40px;text-align: center;}
@@ -151,25 +160,25 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 /* footer */
 footer{
   padding:10px 0 20px 0;
-  background: #cdcdcd;
+  background: #6d6c72;
   width:100%;
   }
 footer a{
-  color: #555555;
+  color: #efefef;
   }
 footer a:hover{
   color: #B5193C;
   }
 footer h5{
-  color: #888888;
+  color: #efefef;
   line-height: 20px;
   padding: 0 0 10px 0;
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #efefef;
   margin-top: 10px;
   }
 #contactinfo,#sns,#sitemap,#link{
   padding: 0px 0 20px 20px;
-  color: #333333;
+  color: #efefef;
 }
 footer img{
   padding-bottom: 10px;
@@ -179,10 +188,9 @@ footer img{
 /* flow */
 #flow{
   position: fixed;
-  left: 100%;
+  right: 30px;
   bottom: 60px;
   padding: 10px;
-  background: #efefef;
   color: #fff;
 }
 #flow li{

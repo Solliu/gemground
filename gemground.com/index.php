@@ -2,31 +2,26 @@
 require_once('header.php');
 
 ?>	
-<div class="container" id="cwrap">
-	<div id="banner" class="carousel slide container">
-	  <ol class="carousel-indicators">
-	    <li data-target="#banner" data-slide-to="0"></li>
-	    <li data-target="#banner" data-slide-to="1" class="active"></li>
-	    <li data-target="#banner" data-slide-to="2"></li>
-	  </ol>
-	  <!-- Carousel items -->
-	  <div class="carousel-inner">
-	    <div class="item"><img src="images/banner1-1170.jpg"></div>
-	    <div class="active item"><img src="images/banner2-1170.jpg"></div>
-	    <div class="item"><img src="images/banner3-1170.jpg"></div>
-	  </div>
-	  <!-- Carousel nav -->
-	  <a class="carousel-control left" href="#banner" data-slide="prev">&lsaquo;</a>
-	  <a class="carousel-control right" href="#banner" data-slide="next">&rsaquo;</a>
+	<div id="banner" >
+		<div class="carousel slide container">
+		  <!--<ol class="carousel-indicators">
+		    <li data-target="#banner" data-slide-to="0"></li>
+		    <li data-target="#banner" data-slide-to="1" class="active"></li>
+		    <li data-target="#banner" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="item"><img src="images/banner1-1170.jpg"></div>
+		    <div class="active item"><img src="images/banner2-1170.jpg"></div>
+		    <div class="item"><img src="images/banner3-1170.jpg"></div>
+		  </div>
+		  <a class="carousel-control left" href="#banner" data-slide="prev">&lsaquo;</a>
+		  <a class="carousel-control right" href="#banner" data-slide="next">&rsaquo;</a>
+		  -->
+		  <div class="item"><img src="images/banner1-1170.jpg"></div>
+		</div>
 	</div>
-	<section id="pointofview" class="container">
-		<a name="pointofview"></a>
-			<div class="sectitle">观点</div>
-			<div class="row">
-				
-			</div>
-	</section>
-	<section id="service" class="container">
+	<div id="service" >
+	<section class="container">
 		<a name="service"></a>
 			<div class="sectitle">核心产品</div>
 			<div class="row" id="products">
@@ -65,7 +60,20 @@ require_once('header.php');
 				</div>
 			</div>
 	</section>
-	<section id="clients" class="container">
+	</div>
+	<div id="pointofview">
+	<section class="container">
+		<a name="pointofview"></a>
+			<div class="sectitle">服务流程</div>
+			<div class="row">
+				<div class="span12">
+					<img src="images/process.png">
+				</div>
+			</div>
+	</section>
+	</div>
+	<div id="clients">
+	<section class="container">
 		<a name="clients"></a>
 		<div class="sectitle">聚广成员曾服务过的品牌</div>
 		<div class="row">
@@ -94,11 +102,13 @@ require_once('header.php');
 			<li class="span4"><img src="images/clients-23.jpg" alt=""></li>
 		</div>
 	</section>
-	<section id="about" class="container"> 
+	</div>
+	<div id="about">
+	<section class="container"> 
 		<a name="about"></a>
 			<div class="row">
 				<div class="sectitle span2">聚广团队</div>
-				<div class="span12">
+				<div class="span12" id="info">
 					<p>聚广由一群精通品牌营销、热爱互联网的人组成，我们运用互联网思维为品牌服务。<br/>聚广人在品牌营销、互联网、电子商务领域都有丰富的实战经验，能为客户提供量身定做的完整解决方案。</p>
 					<p>聚广人坚信，互联网思维将彻底改变品牌营销。<br/>受众研究、数据挖掘、数据分析将从每个环节上对品牌策略提供支持， 让营销成本更低廉、更透明， 让效果可预测、更精准、更可控。</p>
 					<h3>聚广，品牌数字整合营销专家。</h3>
@@ -114,6 +124,7 @@ require_once('header.php');
 				<li class="span2"><a class="teamicon team-jie" target="_blank" href="http://weibo.com/u/1853933265"></a></li>
 			</div>
 	</section>
+	</div>
 <?php
 require_once('footer.php');
 
