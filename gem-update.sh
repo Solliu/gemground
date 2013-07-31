@@ -1,5 +1,5 @@
 # Set work directory
-cd ./gitlib/gemground
+cd ~/gitlib/gemground
 
 # Update lib
 git pull
