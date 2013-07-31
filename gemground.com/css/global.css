@@ -2,7 +2,7 @@ body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FF
 font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
 font-size: 14px;
 line-height: 20px;
-background-image: url(images/shattered.png);
+background-image: url(images/shattered_@2X.png);
 }
 
 a{text-decoration:none;outline:none;}
@@ -15,14 +15,15 @@ ul,li{padding:0;margin:0;list-style: none;}
 .sectitle{
   padding:10px 10px 10px;
   margin-top:30px;
-  margin-bottom: 30px;
   font-size: 20px;
-  border-left: 10px solid #cdcdcd;
+  border-left: 10px solid #B5193C;
   padding-left:20px; 
 }
+#wrap{
+  
+}
 
-
-header{width:100%;background:#B5193C;z-index: 999999}
+header{width:100%;z-index: 999999}
 header{height:48px;padding:1px 0;position:fixed;}
 #mainnav{
   background-color: #B5193C;
@@ -32,12 +33,13 @@ header{height:48px;padding:1px 0;position:fixed;}
 }
 .navbar .nav>li>a {
   text-shadow: none;
+  color:#f7e8eb;
   padding: 5px 15px 5px;
 }
 .navbar .nav>li>p {
   text-shadow: none;
   padding: 5px 15px 5px;
-  line-height:48px;text-align: center;color:#FFF;text-shadow: none;
+  line-height:48px;text-align: center;color:#f7e8eb;text-shadow: none;
   margin: 0px;
 }
 .navbar .btn-navbar{
@@ -61,43 +63,85 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 
 /**/
 #banner{
+  background: #101535;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 .carousel-control {
-  top: 60%;
+  top: 50%;
 }
+
 .carousel-indicators{
   top:auto;
   bottom: 15px;
   left: 50%;
 }
+.carousel-inner{
+}
+.carousel {
+  margin-bottom: 0px;
+}
 /* Banner */
 
 /* pointofview */
-#pointofview{}
+#pointofview{
+  background-color: #14b28f;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
    
 /* services */
-#service{}
-#service .cwrap{text-align:center;margin-top:30px;}
-  #service .cwrap img{margin:0 10px;vertical-align:top;}
-/* clients area */
-#clients-bg{width:100%;background-color:#ffffff;}
-#clients{
-  margin-top: 40px;
-  margin-bottom: 40px;
+#service{
+  background-color: #e8bd25;
+  padding-top: 80px; 
+  padding-bottom: 80px;
 }
-#clients li{padding-bottom: 20px;}
+#service img{margin:0 10px;vertical-align:middle;}
+#products{
+  padding-bottom: 20px;
+}
+#products h3{
+  color: #B5193C;
+  margin-bottom: 0px;
+  border-bottom: 1px dashed #cdcdcd;
+}
+#products i{
+  color: #5f193d;
+  font-size: 14px;
+  text-align: center;
+}
+#products li{
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+#products span{
+  font-size: 13px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+/* clients area */
+#clients{
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#clients li img{
+  padding-bottom: 20px;
+  text-align: center;
+  padding: 30px;
+  }
 
-/* works */
-#works{height:575px;}
-#worklist{}
-#worklist li{width:160px;height:160px;}
-#worklist .workitem{text-align:center;line-height:160px;background:#EEE;}
-#worklist .workitem:hover{background:#AAA;}
 
 /* about */
+#about{
+  background-color: #464695;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 #about p,#about h3{text-align:center;}
-  #memlist{margin-top:40px;margin-bottom: 80px;text-align: center;}
+  #memlist{margin-bottom: 80px;margin-top: 40px;text-align: center;}
   #memlist .teamicon{display: block;width:100px;height:100px;font-size:20px;line-height:1em;margin-bottom:24px;
     color:#707070;
     background:#FFF url(images/team.jpg);border-radius: 50px;margin:0 27px;}
@@ -115,24 +159,49 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
   #memlist .team-jie:hover{background-position:-400px 0;}
 /* footer */
 footer{
-  padding:10px 0 20px 0;background: #555555}
-#contactinfo{
+  padding:10px 0 20px 0;
+  background: #6d6c72;
+  width:100%;
+  }
+footer a{
+  color: #efefef;
+  }
+footer a:hover{
+  color: #B5193C;
+  }
+footer h5{
+  color: #efefef;
   line-height: 20px;
-  color: #fff;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #efefef;
+  margin-top: 10px;
+  }
+#contactinfo,#sns,#sitemap,#link{
+  padding: 0px 0 20px 20px;
+  color: #efefef;
+}
+footer img{
+  padding-bottom: 10px;
 }
 #footernav{float:right;}
 
 /* flow */
 #flow{
   position: fixed;
-  bottom: 90px;
-  right: 20px;
+  right: 30px;
+  bottom: 60px;
   padding: 10px;
-  background: #efefef;
   color: #fff;
 }
 #flow li{
   line-height: 20px;
   text-align: center;
   padding: 5px;
+}
+
+#cr{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #555;
+  text-align: center;
 }
