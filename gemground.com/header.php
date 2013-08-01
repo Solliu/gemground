@@ -12,37 +12,67 @@
   </head>
   <body>
 	<header>
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner" id="mainnav">
-      <div class="container"id="gemnav">
+    <!-- Menu style A -->
+    <div class="navbar navbar-fixed-top gemnavbar-a">
+      <div class="navbar-inner mainnav">
+        <div class="container">
           <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".gemnavbar-a .nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
           <div class="row">
             <!-- Be sure to leave the brand out there if you want it shown -->
-            <div class="span3 gemlogowrap">
-              <div id="gemlogo" class="biglogo">
-                <img class="biglogo" src="images/gem-logo.png" />
-                <img class="smalllogo" src="images/gem-logo-small.png" />
-              </div>
+            <div class="span3">
+              <img class="gemlogo" src="images/gem-logo.png" />
             </div>
-
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse span9">
               <!-- .nav, .navbar-search, .navbar-form, etc -->
-                <ul class="nav">
-                  <li><a id="navhome" href="#banner"><span class="aname">首页</span></a></li>
-                  <li><a id="navservice" href="#service"><span class="aname">服务与方法</span></a></li>
-                  <li><a id="navworks" href="#clients"><span class="aname">案例经验</span></a></li>
-                  <li><a id="navclients" href="#about"><span class="aname">关于我们</span></a></li>
-             <!-- <li><p class="aname">・品牌咨询・标志设计・VI 设计・网站设计・APP设计・微信营销・400 1234 567・</p></li>-->
-                </ul>
+              <ul class="nav">
+                <li><a href="#banner"><span class="aname">首页</span></a></li>
+                <li><a href="#service"><span class="aname">服务与方法</span></a></li>
+                <li><a href="#clients"><span class="aname">案例经验</span></a></li>
+                <li><a href="#about"><span class="aname">关于我们</span></a></li>
+                <!-- <li><p class="aname">・品牌咨询・标志设计・VI 设计・网站设计・APP设计・微信营销・400 1234 567・</p></li>-->
+              </ul>
             </div>
           </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+    <!-- Menu style A End-->
+    
+    <!-- Menu style B -->
+    <div class="navbar navbar-fixed-top gemnavbar-b">
+      <div class="navbar-inner mainnav">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".gemnavbar-b .nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <div class="row">
+            <!-- Be sure to leave the brand out there if you want it shown -->
+            <div class="span3">
+              <img class="gemlogo" src="images/gem-logo-small.png" />
+            </div>
+            <!-- Everything you want hidden at 940px or less, place within here -->
+            <div class="nav-collapse collapse span9">
+              <!-- .nav, .navbar-search, .navbar-form, etc -->
+              <ul class="nav">
+                <li><a href="#banner"><span class="aname">首页</span></a></li>
+                <li><a href="#service"><span class="aname">服务与方法</span></a></li>
+                <li><a href="#clients"><span class="aname">案例经验</span></a></li>
+                <li><a href="#about"><span class="aname">关于我们</span></a></li>
+                <!-- <li><p class="aname">・品牌咨询・标志设计・VI 设计・网站设计・APP设计・微信营销・400 1234 567・</p></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu style B End-->
   </header>

@@ -1,9 +1,7 @@
 body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FFF;color:#000;
 font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
-font-size: 14px;
-line-height: 20px;
-background-image: url("images/shattered_@2X.png");
-}
+font-size: 14px;line-height: 20px;
+background-image: url("images/shattered_@2X.png");}
 
 .w00{/*无限宽*/}
 .w2000{/*小于2000*/}
@@ -26,48 +24,35 @@ ul,li{padding:0;margin:0;list-style: none;}
 }
 
 header{width:100%;height:48px;padding:1px 0;position:fixed;z-index: 999999;margin-top:-1px;}
-#mainnav{
-  background-color: #B5193C;
-  background-image: none;
-  border: none;
-  box-shadow: none;
-}
-.navbar{height:60px;}
+.mainnav{background:#B5193C;border: none;box-shadow: none;}
+.mainnav a{line-height:48px;text-align: center;color:#FFF;text-shadow:none;text-decoration:none;}
+.mainnav a:hover{background:#8c0f28;}
 .navbar .nav>li>a {
-  text-shadow: none;
-  color:#f7e8eb;
+  text-shadow:none;font-weight:normal;
+  color:#FFF;
   padding: 5px 15px 5px;
 }
-.navbar .nav>li>p {
-  text-shadow: none;
-  padding: 5px 15px 5px;
-  line-height:48px;text-align: center;color:#f7e8eb;text-shadow: none;
-  margin: 0px;
-}
+.navbar .nav>li>a:hover {text-shadow:none;font-weight:normal;color:#FFF;background-color:#8c0f28;}
 .navbar .btn-navbar{
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  position: relative;
+  top: 11px;
+  right: 22px;
 }
+.navbar .nav-collapse{min-height:0;}
 
-#mainnav a{line-height:48px;text-align: center;color:#FFF;text-shadow: none;}
-#mainnav a:hover{text-decoration:none;background: #8c0f28;}
+.gemnavbar-a,.gemnavbar-b,.gemnavbar-c,.gemnavbar-d{position:absolute;top:-80px;}
+.gemnavbar-a{top:0;}
+.gemnavbar-b a{line-height:30px;}
+.gemnavbar-b .btn-navbar{top:1px;}
 
-#gemlogo{}
-  .smalllogo .smalllogo,
-  .biglogo .biglogo{display:block;}
-  .smalllogo .biglogo,
-  .biglogo .smalllogo{display:none;}
+
+
+
 @media (min-width:980px){
-  #gemlogo img{margin:0;}
+  .mainnav .gemlogo {margin:0;}
 }
 @media (max-width:979px){
-  #gemlogo{margin-top:-5px;}
-  #gemlogo img{margin:0 auto;}
-  #gemlogo[class=smalllogo]{margin-top:-8px;}
-}
-@media (min-width:768px) and (max-width:979px){
-  .gemlogowrap{width:100%;margin-left: 10px;}
+  .mainnav .gemlogo {margin:0 auto;display:block;}
 }
 @media (max-width:767px){
   #flow{display:none;}
