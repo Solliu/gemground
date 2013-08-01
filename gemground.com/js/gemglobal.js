@@ -1,54 +1,27 @@
 $(function (){
 	var ww = $(window).width(),
 	wh = $(window).height(),
-	igr_menu = false,
-	nav_status = 'max';
+	nav_style = 'a';
 
 	var _hdl_scroll = function (){
 		var top = $(window).scrollTop(),
-		wh = $(window).height() * 0.6;
-		if(top < wh && nav_status == 'min'){
-			// set nav to max view
-			$('header .navbar').animate({
-				top:0,
-				height:60
-			});
-			$('#gemlogo').removeClass('smalllogo').addClass('biglogo');
-			nav_status = 'max';
-		}else if(top > wh && nav_status == 'max'){
-			$('header .navbar').animate({
-				top:-10,
-				height:50
-			});
-			var logo = $('header .brand');
-			$('#gemlogo').removeClass('biglogo').addClass('smalllogo');
-			nav_status = 'min';
+		wh = $(window).height() * 0.6,
+		ns = null;
+		if(top < wh){
+			// set nav to style A
+			ns = 'a';
+		}else if(top > wh){
+			// set nav to style B
+			ns = 'b';
 		}
-	}/*,
-		
-	_hdl_resize = function (){
-		var win = $(window),
-		// Update section min height
-		sech = win.height() * 0.8 - 60,
-		ww = win.width();
-
-
-
-		if (ww < 980) {
-			$('#banner,#service,#pointofview,#clients,#about').height('auto');
-		}else {
-			if (sech < 500) {
-				sech = 500;
-			}else if (sech > 720) {
-				sech = 720;
-			}
-			$('#banner,#service,#pointofview,#clients,#about').height(sech);
+		if ((!!ns) && ns != nav_style) {
+			console.log('switch to style-' + ns);
+			$('.gemnavbar-' + nav_style).animate({top:-80}, 0.8, null, function (){
+				$('.gemnavbar-' + ns).animate({top:0});
+			});
+			nav_style = ns;
 		}
-		
-	}*/;
+	};
 	
-	// $(window).resize(_hdl_resize);
 	$(window).scroll(_hdl_scroll);
-
-	// _hdl_resize();
 });
