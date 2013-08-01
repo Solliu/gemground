@@ -39,5 +39,10 @@
    	<!-- scripts -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/gemglobal.js"></script>
+<?php
+if ($_SERVER['HTTP_HOST'] == 'www.gemground.com') {?>
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=26155909" charset="UTF-8"></script>
+<?php
+}?>
   </body>
 </html>
