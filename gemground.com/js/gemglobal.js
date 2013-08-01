@@ -9,14 +9,14 @@ $(function (){
 		wh = $(window).height() * 0.6;
 		if(top < wh && nav_status == 'min'){
 			// set nav to max view
-			$('header .navbar').animate({
+			$('header #mainnav').css('position','relative').animate({
 				top:0,
 				height:60
 			});
 			$('#gemlogo').removeClass('smalllogo').addClass('biglogo');
 			nav_status = 'max';
 		}else if(top > wh && nav_status == 'max'){
-			$('header .navbar').animate({
+			$('header #mainnav').css('position','relative').animate({
 				top:-10,
 				height:50
 			});
