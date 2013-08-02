@@ -1,34 +1,22 @@
 <?php
 require_once('header.php');
 
+$pages = $G_CONF['pages'];
 ?>	
 	<div id="banner" >
 		<div class="carousel slide container">
-		  <!--<ol class="carousel-indicators">
-		    <li data-target="#banner" data-slide-to="0"></li>
-		    <li data-target="#banner" data-slide-to="1" class="active"></li>
-		    <li data-target="#banner" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner">
-		    <div class="item"><img src="images/banner1-1170.jpg"></div>
-		    <div class="active item"><img src="images/banner2-1170.jpg"></div>
-		    <div class="item"><img src="images/banner3-1170.jpg"></div>
-		  </div>
-		  <a class="carousel-control left" href="#banner" data-slide="prev">&lsaquo;</a>
-		  <a class="carousel-control right" href="#banner" data-slide="next">&rsaquo;</a>
-		  -->
 		  <div class="item"><img src="images/banner01.png"></div>
 		  <div class="row" id="more">
 				<div class="span12">
-					<a>查看详细 ／／</a>
+					<a href="<?php echo $pages['point']; ?>">查看详细 ／／</a>
 				</div>
 			</div>
 		</div>
 		
 	</div>
 	<div id="service" >
-	<section class="container">
-		<a name="service" href="#"></a>
+		<section class="container">
+			<a name="service" href="#"></a>
 			<div class="sectitle">／ 核心产品</div>
 			<div class="row" id="products">
 				<div class="span3 offset1">
@@ -67,10 +55,10 @@ require_once('header.php');
 			</div>
 			<div class="row" id="more">
 				<div class="span12">
-					<a>全部观点 ／／</a>
+					<a href="<?php echo $pages['services']; ?>">全部服务 ／／</a>
 				</div>
 			</div>
-	</section>
+		</section>
 	</div>
 	<div id="pointofview">
 	<section class="container">
@@ -89,7 +77,7 @@ require_once('header.php');
 			</div>
 			<div class="row" id="more">
 				<div class="span12">
-					<a>所有服务 ／／</a>
+					<a href="<?php echo $pages['services'];?>">全部服务 ／／</a>
 				</div>
 			</div>
 	</section>
@@ -125,7 +113,7 @@ require_once('header.php');
 		</div>
 		<div class="row" id="more">
 				<div class="span12">
-					<a>更多案例 ／／</a>
+					<a href="<?php echo $pages['works']; ?>">更多案例 ／／</a>
 				</div>
 			</div>
 	</section>
@@ -150,6 +138,12 @@ require_once('header.php');
 				<li class="span2"><a class="teamicon team-sol" target="_blank" href="http://weibo.com/soooool"></a></li>
 				<li class="span2"><a class="teamicon team-jie" target="_blank" href="http://weibo.com/u/1853933265"></a></li>
 			</div>
+
+		<div class="row" id="more">
+			<div class="span12">
+				<a href="<?php echo $pages['about']; ?>">关于我们 ／／</a>
+			</div>
+		</div>
 	</section>
 	</div>
 <?php
