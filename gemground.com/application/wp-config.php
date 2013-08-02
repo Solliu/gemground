@@ -15,7 +15,7 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
-if ($_SERVER['HTTP_REQUESR'] == 'localhost') {
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
 
 	define('DB_NAME', 'gemground');
 
