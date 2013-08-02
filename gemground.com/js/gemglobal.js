@@ -23,5 +23,11 @@ $(function (){
 		}
 	};
 	
+	/* handle main nav */
+	$('.mainnav .nav a').click(function (){
+		var anchor = $(this).attr('href').substr(1),
+		pos = ;
+		return false;
+	});
 	$(window).scroll(_hdl_scroll);
 });

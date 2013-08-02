@@ -6,7 +6,7 @@ $ptitle = $G_CONF['site_title'];
 $navigation = '';
 foreach ($G_CONF['navigation'] as $name => $link)
 {
-  $navigation .= '<li><a href="'.$link.'"><span class="aname">'.$name.'</span></a></li>'; 
+  $navigation .= '<li><a href="'.$link.'" onclick="return false;"><span class="aname">'.$name.'</span></a></li>'; 
 }
 
 
@@ -19,7 +19,8 @@ foreach ($G_CONF['navigation'] as $name => $link)
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
     <link href="css/global.css" rel="stylesheet" media="screen">
-	<script src="js/jquery.1.10.2.min.js"></script>
+	<!-- <script src="js/jquery.1.10.2.min.js"></script> -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 	<script src="js/jquery.slides.min.js"></script>
   </head>
   <body>
