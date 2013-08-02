@@ -28,7 +28,7 @@ require_once('header.php');
 	</div>
 	<div id="service" >
 	<section class="container">
-		<a name="service" href="#">
+		<a name="service" href="#"></a>
 			<div class="sectitle">／ 核心产品</div>
 			<div class="row" id="products">
 				<div class="span3 offset1">
@@ -70,7 +70,6 @@ require_once('header.php');
 					<a>全部观点 ／／</a>
 				</div>
 			</div>
-		</a>
 	</section>
 	</div>
 	<div id="pointofview">

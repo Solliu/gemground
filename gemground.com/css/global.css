@@ -140,7 +140,7 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 
 /* about */
 #about{
-  background-color: #464695;
+  background-color: #666;
   color: #fff;
 }
 #about p,#about h3{text-align:center;}
@@ -187,7 +187,7 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 /* footer */
 footer{
   padding:10px 0 20px 0;
-  background: #6d6c72;
+  background: #000000;
   width:100%;
   }
 footer a{
