@@ -66,14 +66,94 @@ $pages = $G_CONF['pages'];
 		<a name="pointofview"></a>
 			<div class="sectitle">／ 服务流程</div>
 			<div class="row">
-				<div class="span4">
-					<img src="data/images/process-01.jpg">
-				</div>
-				<div class="span4">
-					<img src="data/images/process-02.jpg">
-				</div>
-				<div class="span4">
-					<img src="data/images/process-03.jpg">
+				<div class="span12">
+					<ul class="serv-steps">
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>1</span></div>
+							<h4 style="letter-spacing:2px;">品牌分析和定位</h4>
+							<ul class="serv-step-start">
+								<li>桌面研究</li>
+								<li>高层访谈</li>
+								<li>行业分析</li>
+								<li>市场调研</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>目标市场定位</li>
+								<li>主品牌定位</li>
+								<li>品牌架构策略方向建议</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>2</span></div>
+							<h4>品牌架构识别建议</h4>
+							<ul class="serv-step-start">
+								<li>品牌标识和视觉概念发展</li>
+								<li>命名和规范发展</li>
+								<li>标识语,信息矩阵</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>视觉、命名、标识语建议报告</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>3</span></div>
+							<h4>品牌识别完善完稿</h4>
+							<ul class="serv-step-start">
+								<li>视觉识别调整</li>
+								<li>商标预检检索</li>
+								<li>视觉识别完善</li>
+								<li>视觉识别手册</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>视觉识别手册</li>
+								<li>品牌命名</li>
+								<li>品牌标识语</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>4</span></div>
+							<h4 style="letter-spacing:-1px;">接触点<span style="letter-spacing:-12px;">、</span>制度和培训</h4>
+							<ul class="serv-step-start">
+								<li>品牌接触点规划</li>
+								<li>品牌管理制度</li>
+								<li>培训</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>品牌接触点规划</li>
+								<li>品牌管理制度</li>
+								<li>培训</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>5</span></div>
+							<h4 style="letter-spacing:6px;">品牌传播系统</h4>
+							<ul class="serv-step-start">
+								<li>品牌传播</li>
+								<li>品牌营销</li>
+								<li>品牌推广</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>品牌传播</li>
+								<li>品牌营销</li>
+								<li>品牌推广</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div class="row more">
@@ -88,29 +168,33 @@ $pages = $G_CONF['pages'];
 		<a name="clients"></a>
 		<div class="sectitle">／ 聚广成员曾服务过的品牌</div>
 		<div class="row">
-			<li class="span4"><img src="data/images/clients-01.jpg" alt="">
-			<img src="data/images/clients-02.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-03.jpg" alt="">
-			<img src="data/images/clients-04.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-05.jpg" alt="">
-			<img src="data/images/clients-06.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-07.jpg" alt="">
-			<img src="data/images/clients-08.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-09.jpg" alt="">
-			<img src="data/images/clients-10.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-11.jpg" alt="">
-			<img src="data/images/clients-12.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-13.jpg" alt="">
-			<img src="data/images/clients-14.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-15.jpg" alt="">
-			<img src="data/images/clients-16.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-17.jpg" alt="">
-			<img src="data/images/clients-18.jpg" alt=""></li>	
-			<li class="span4"><img src="data/images/clients-19.jpg" alt="">
-			<img src="data/images/clients-20.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-21.jpg" alt="">
-			<img src="data/images/clients-22.jpg" alt=""></li>
-			<li class="span4"><img src="data/images/clients-23.jpg" alt=""></li>
+			<div class="span12">
+			<ul class="clients-list">
+				<li><img src="data/images/clients-01.jpg" alt=""></li>
+				<li><img src="data/images/clients-02.jpg" alt=""></li>
+				<li><img src="data/images/clients-03.jpg" alt=""></li>
+				<li><img src="data/images/clients-04.jpg" alt=""></li>
+				<li><img src="data/images/clients-05.jpg" alt=""></li>
+				<li><img src="data/images/clients-06.jpg" alt=""></li>
+				<li><img src="data/images/clients-07.jpg" alt=""></li>
+				<li><img src="data/images/clients-08.jpg" alt=""></li>
+				<li><img src="data/images/clients-09.jpg" alt=""></li>
+				<li><img src="data/images/clients-10.jpg" alt=""></li>
+				<li><img src="data/images/clients-11.jpg" alt=""></li>
+				<li><img src="data/images/clients-12.jpg" alt=""></li>
+				<li><img src="data/images/clients-13.jpg" alt=""></li>
+				<li><img src="data/images/clients-14.jpg" alt=""></li>
+				<li><img src="data/images/clients-15.jpg" alt=""></li>
+				<li><img src="data/images/clients-16.jpg" alt=""></li>
+				<li><img src="data/images/clients-17.jpg" alt=""></li>
+				<li><img src="data/images/clients-18.jpg" alt=""></li>	
+				<li><img src="data/images/clients-19.jpg" alt=""></li>
+				<li><img src="data/images/clients-20.jpg" alt=""></li>
+				<li><img src="data/images/clients-21.jpg" alt=""></li>
+				<li><img src="data/images/clients-22.jpg" alt=""></li>
+				<li><img src="data/images/clients-23.jpg" alt=""></li>
+			</ul>
+			</div>
 		</div>
 		<div class="row more">
 				<div class="span12">
