@@ -1,18 +1,21 @@
 <?php
+$homeurl = esc_url( home_url( '/' ) );
 $G_CONF = array(
 	'site_title' => '聚广传播｜品牌数字营销',
 	'navigation' => array(
-		'首页' => './#home',
-		'服务与方法' => './#pointofview',
-		'案例经验' => './#clients',
-		'关于我们' => './#about',
+		'首页' => $homeurl . '#home',
+		'服务与方法' => $homeurl . '#pointofview',
+		'案例经验' => $homeurl . '#clients',
+		'关于我们' => $homeurl . '#about',
 	),
+
+  // Use wordpress category instead
 	'pages' => array(
-		'services' => 'services.php',
-		'works' => 'works.php',
-		'about' => 'about.php',
-		'clients' => 'clients.php',
-		'point'  => 'point.php',
+		'services' => $homeurl . 'services',
+		'works' => $homeurl . 'works',
+		'about' => $homeurl . 'about',
+		'clients' => $homeurl . 'clients',
+		'point'  => $homeurl . 'point',
 	),
 );
 
@@ -42,7 +45,7 @@ foreach ($G_CONF['navigation'] as $name => $link)
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.slides.min.js"></script>
   </head>
   <body <?php body_class(); ?>>
-	<header>
+	<header class="navigation">
 	<hgroup style="display:none;">
 		<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 		<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -60,7 +63,7 @@ foreach ($G_CONF['navigation'] as $name => $link)
           <div class="row">
             <!-- Be sure to leave the brand out there if you want it shown -->
             <div class="span2">
-              <img class="gemlogo" src="data/images/gem-logo.png" />
+              <img class="gemlogo" src="<?php echo esc_url( home_url( '/' ) ); ?>/data/images/gem-logo.png" />
             </div>
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse span9 offset1">
@@ -88,7 +91,7 @@ foreach ($G_CONF['navigation'] as $name => $link)
           <div class="row">
             <!-- Be sure to leave the brand out there if you want it shown -->
             <div class="span3">
-              <img class="gemlogo" src="data/images/gem-logo-small.png" />
+              <img class="gemlogo" src="<?php echo esc_url( home_url( '/' ) ); ?>/data/images/gem-logo-small.png" />
             </div>
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse span8">
@@ -103,3 +106,4 @@ foreach ($G_CONF['navigation'] as $name => $link)
     </div>
     <!-- Menu style B End-->
   </header>
+  <div class="header-expand"></div>

@@ -27,14 +27,14 @@ a img{border:none;}
 ul,li{padding:0;margin:0;list-style: none;}
 .list-hor li{float:left;}
 
-.thefirstsec{padding-top:80px;}
 .sectitle{
   padding:10px 10px 40px 0px;
   margin-top:30px;
   font-size: 20px;
 }
 
-header{width:100%;height:48px;padding:1px 0;position:fixed;z-index: 999999;margin-top:-1px;}
+.navigation{width:100%;height:48px;padding:1px 0;position:fixed;z-index: 999999;margin-top:-1px;}
+.header-expand{height:59px;width:100%;}
 .mainnav{background:#B5193C;border: none;box-shadow: none;}
 .mainnav a{line-height:48px;text-align: center;color:#FFF;text-shadow:none;text-decoration:none;}
 .mainnav a:hover{background:#8c0f28;}
@@ -83,7 +83,7 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 /**/
 #banner{
   background: #101535;
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 .carousel-control {
@@ -258,3 +258,8 @@ footer img{
   color: #555;
   text-align: center;
 }
+
+
+/*** Work style ***/
+.work-list{}
+.work-thumb{display:inline-block;width:240px;height:240px;margin:0 20px 20px;vertical-align:top;}

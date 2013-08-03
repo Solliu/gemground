@@ -6,7 +6,7 @@ $pages = $G_CONF['pages'];
 ?>	
 	<div id="banner" >
 		<div class="carousel slide container">
-		  <div class="item"><img src="data/images/banner01.png"></div>
+		  <div class="item"><img src="<?php echo $homeurl; ?>data/images/banner01.png"></div>
 		  <div class="row more">
 				<div class="span12">
 					<a href="./point">查看详细 ／／</a>
@@ -170,29 +170,29 @@ $pages = $G_CONF['pages'];
 		<div class="row">
 			<div class="span12">
 			<ul class="clients-list">
-				<li><img src="data/images/clients-01.jpg" alt=""></li>
-				<li><img src="data/images/clients-02.jpg" alt=""></li>
-				<li><img src="data/images/clients-03.jpg" alt=""></li>
-				<li><img src="data/images/clients-04.jpg" alt=""></li>
-				<li><img src="data/images/clients-05.jpg" alt=""></li>
-				<li><img src="data/images/clients-06.jpg" alt=""></li>
-				<li><img src="data/images/clients-07.jpg" alt=""></li>
-				<li><img src="data/images/clients-08.jpg" alt=""></li>
-				<li><img src="data/images/clients-09.jpg" alt=""></li>
-				<li><img src="data/images/clients-10.jpg" alt=""></li>
-				<li><img src="data/images/clients-11.jpg" alt=""></li>
-				<li><img src="data/images/clients-12.jpg" alt=""></li>
-				<li><img src="data/images/clients-13.jpg" alt=""></li>
-				<li><img src="data/images/clients-14.jpg" alt=""></li>
-				<li><img src="data/images/clients-15.jpg" alt=""></li>
-				<li><img src="data/images/clients-16.jpg" alt=""></li>
-				<li><img src="data/images/clients-17.jpg" alt=""></li>
-				<li><img src="data/images/clients-18.jpg" alt=""></li>	
-				<li><img src="data/images/clients-19.jpg" alt=""></li>
-				<li><img src="data/images/clients-20.jpg" alt=""></li>
-				<li><img src="data/images/clients-21.jpg" alt=""></li>
-				<li><img src="data/images/clients-22.jpg" alt=""></li>
-				<li><img src="data/images/clients-23.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-01.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-02.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-03.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-04.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-05.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-06.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-07.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-08.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-09.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-10.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-11.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-12.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-13.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-14.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-15.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-16.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-17.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-18.jpg" alt=""></li>	
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-19.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-20.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-21.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-22.jpg" alt=""></li>
+				<li><img src="<?php echo $homeurl; ?>data/images/clients-23.jpg" alt=""></li>
 			</ul>
 			</div>
 		</div>

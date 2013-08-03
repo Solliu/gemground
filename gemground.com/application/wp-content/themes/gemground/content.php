@@ -7,7 +7,17 @@
  * @since Twenty Eleven 1.0
  */
 ?>
-
+<br/>
+<br/>&nbsp;
+<br/>&nbsp;
+<br/>&nbsp;
+<br/>&nbsp;
+<br/>&nbsp;
+<br/>&nbsp;
+&nbsp;<br/>
+&nbsp;
+<br/>
+  content.php  content.php  content.php  content.php  content.php
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">
 			<?php if ( is_sticky() ) : ?>

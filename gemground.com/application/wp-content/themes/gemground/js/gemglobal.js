@@ -21,7 +21,6 @@ $(function (){
 			});
 			nav_style = ns;
 		}
-		console.log('ns > ' + ns);
 	};
 	
 	/* handle main nav */
