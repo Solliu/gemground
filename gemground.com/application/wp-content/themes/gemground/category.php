@@ -56,7 +56,7 @@ get_header();
 			//
 			$thumbnail = get_the_post_thumbnail(
 				$post->ID, 
-				array(400,400),  // set thumb image size
+				array(980,400),  // set thumb image size
 				array(
 					'alt'    =>get_the_title($post->ID),
 					'title'  =>get_the_title($post->ID)
