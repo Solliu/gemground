@@ -1,5 +1,5 @@
 <?php
-$homeurl = esc_url( home_url( '/' ) );
+define('GEM_WORK_CATEGORY_ID' , 18);
 $G_CONF = array(
 	'site_title' => '聚广传播｜品牌数字营销',
 	'navigation' => array(
@@ -19,6 +19,9 @@ $G_CONF = array(
 	),
 );
 
+$homeurl = esc_url( home_url( '/' ) );
+
+
 
 $ptitle = $G_CONF['site_title'];
 
@@ -26,7 +29,7 @@ $navigation = '';
 $onclick = '';
 foreach ($G_CONF['navigation'] as $name => $link)
 {
-  $navigation .= '<li><a href="'.$link.'" '.$onclick.'><span class="aname">'.$name.'</span></a></li>'; 
+  $navigation .= '<li><a href="'.$homeurl.$link.'" '.$onclick.'><span class="aname">'.$name.'</span></a></li>'; 
 }
 
 ?><!DOCTYPE html>

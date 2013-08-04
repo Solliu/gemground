@@ -11,19 +11,23 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row">
-			<aside class="span2">
-				<?php wp_list_categories( array(
+			<aside class="cate-container span2">
+				<ul class="cate-list">
+<?php 			wp_list_categories( array(
 					'show_count'         => 0,
 					'hide_empty'         => 0,
+					'orderby'            => 'ID',
 					'use_desc_for_title' => 0,
-					'child_of'           => 3, // child for works
+					'child_of'           => GEM_WORK_CATEGORY_ID, // child for works
 					'title_li'           => '', //__( 'Categories' ),
 					'show_option_none'   => '', //__('No categories'),
 					'echo'               => 1,
 					'depth'              => 3,
 				) ); ?>
+				</ul>
 			</aside>
-			<div id="primary" class="span10">
+
+			<div id="primary" class="work-content span10">
 				<div id="content" role="main">
 
 					<?php while ( have_posts() ) : the_post(); ?>

@@ -15,7 +15,6 @@ $(function (){
 			ns = 'b';
 		}
 		if ((!!ns) && ns != nav_style) {
-			console.log('switch to style-' + ns);
 			$('.gemnavbar-' + nav_style).animate({top:-80}, 0.8, null, function (){
 				$('.gemnavbar-' + ns).animate({top:0});
 			});
