@@ -230,8 +230,7 @@ footer h5{
   margin-top: 10px;
 }
 #contactinfo,#sns,#sitemap,#link{
-  padding: 0px 0 20px 20px;
-  color: #efefef;
+  color: #cdcdcd;
 }
 footer img{
   padding-bottom: 10px;
@@ -261,22 +260,26 @@ footer img{
 
 
 /*** Work style ***/
-.cate-container {margin-top:50px;margin-bottom:20px;}
+.cate-container {margin-top:50px;margin-bottom:50px;}
 .cate-list a{text-decoration: none;color:#FFF;}
-.cate-list{background-color:#FFF;padding:5px 0;}
+.cate-list{background-color:#FFF;}
 .cate-list .cat-item{width:100%;}
-.cate-list > li > a{color:#FFF;display:block;background:#B5193C;padding:3px 10px;text-decoration:none;cursor:default;}
+.cate-list > li > a{color:#B5193C;display:block;background:#efefef;padding:10px 0px 10px 10px;text-decoration:none;cursor:default;}
 .cate-list ul{margin:0.5em 0;}
 .cate-list .children a{color:#000;display:block;padding-left: 2em;line-height:2em;}
 .cate-list .children a:hover{color:#FFF;background-color:#B5193C;}
 
 .work-list,
-.work-content{margin-top:50px;margin-bottom:15px;background-color:#FFF;}
+.work-content{margin-top:50px;margin-bottom:55px;}
 .work-content #content{width:98%;margin:0 auto;}
 .work-content #content .entry-content img{width:100%;}
-.work-list{text-align:center;}
-.work-thumb{display:inline-block;text-align:left;width:98%;height:auto;color:#B5193C;margin:0 1% 20px;padding:10px 0;}
-  .work-thumb a{color:inherit;text-decoration:none;}
-  .work-thumb .work-title{font-family:"微软雅黑";font-size:24px;line-height:1.6em;}
-.attachment-400x400{width:100%;height:94.15%;}
+.work-list{text-align:center;padding-bottom: 30px;}
+.work-thumb{text-align:left;color:#B5193C;margin-bottom: 30px;padding: 1.2%;background-color: #fff;}
+.work-thumb:hover {background-color: #B5193C}
+.work-thumb:hover a{color: #fff}
+  .work-thumb a{color:inherit;text-decoration:none;padding-bottom: 30px;}
+  .work-thumb a:hover{color: #fff;}
+  .work-thumb .work-title{font-size:16px;line-height:1.6em;display: block;}
+.attachment-400x400{width:100%;}
+.work-title{padding-top: 5px;}
 #nav-single{margin:30px 0 10px;}
