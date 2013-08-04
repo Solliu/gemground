@@ -47,7 +47,6 @@ get_header();
 				) ); ?>
 				</ul>
 			</aside>
-
 			<ul class="work-list span10">
 <?php
 	if ($posts) :
@@ -56,7 +55,7 @@ get_header();
 			//
 			$thumbnail = get_the_post_thumbnail(
 				$post->ID, 
-				array(980,400),  // set thumb image size
+				array(400,400),  // set thumb image size
 				array(
 					'alt'    =>get_the_title($post->ID),
 					'title'  =>get_the_title($post->ID)
@@ -66,8 +65,8 @@ get_header();
 
 ?>				<li class="work-thumb span3">
 					<a href="<?php the_permalink(); ?>">
-						<span class="work-title"><?php the_title(); ?></span>
 						<?php echo $thumbnail; ?>
+						<span class="work-title"><?php the_title(); ?></span>
 					</a>
 				</li>
 <?php 		else: ?>
