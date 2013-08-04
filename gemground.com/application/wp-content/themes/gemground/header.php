@@ -45,7 +45,9 @@ foreach ($G_CONF['navigation'] as $name => $link)
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" type="image/x-icon" rel="shortcut icon">
 	<!-- <script src="js/jquery.1.10.2.min.js"></script> -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.slides.min.js"></script>
+	<!-- <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.slides.min.js"></script> -->
+  <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.scrollto.js"></script>
+
   </head>
   <body <?php body_class(); ?>>
 	<header class="navigation">

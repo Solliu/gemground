@@ -15,11 +15,9 @@ body,html{width:100%;height:100%;line-height:0;padding:0;margin:0;background:#FF
 font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
 font-size: 14px;line-height: 20px;
 background-image: url("images/shattered_@2X.png");}
-
-.w00{/*无限宽*/}
-.w2000{/*小于2000*/}
-.w980{/*小于980*/}
-.w768{/*小于768*/}
+body{background-color:#101535;}
+/* JQScrollTo plugin assist */
+.jqscroll{position:relative;top:-30px;}
 
 a{text-decoration:none;outline:none;}
 a:hover{text-decoration:underline;}
@@ -239,7 +237,7 @@ footer img{
 
 /* flow */
 #flow{
-  position: fixed;
+  position: absolute;
   right: 30px;
   bottom: 60px;
   padding: 10px;

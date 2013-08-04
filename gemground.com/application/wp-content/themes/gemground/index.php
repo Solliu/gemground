@@ -6,7 +6,7 @@ $pages = $G_CONF['pages'];
 ?>	
 	<div id="banner" >
 		<div class="carousel slide container">
-			<a name="home" href="#"></a>
+			<a name="home" class="jqscroll" style="top:-90px;"></a>
 		  <div class="item"><img src="<?php echo $homeurl; ?>data/images/banner01.png"></div>
 		  <div class="row more">
 				<div class="span12">
@@ -18,7 +18,7 @@ $pages = $G_CONF['pages'];
 	</div>
 	<div id="service" >
 		<section class="container">
-			<a name="service" href="#"></a>
+			<a name="service" class="jqscroll"></a>
 			<div class="sectitle">／ 核心产品</div>
 			<div class="row" id="products">
 				<div class="span3 offset1">
@@ -64,7 +64,7 @@ $pages = $G_CONF['pages'];
 	</div>
 	<div id="pointofview">
 	<section class="container">
-		<a name="pointofview"></a>
+		<a name="pointofview" class="jqscroll"></a>
 			<div class="sectitle">／ 服务流程</div>
 			<div class="row">
 				<div class="span12">
@@ -166,7 +166,7 @@ $pages = $G_CONF['pages'];
 	</div>
 	<div id="clients">
 	<section class="container">
-		<a name="clients"></a>
+		<a name="clients" class="jqscroll"></a>
 		<div class="sectitle">／ 聚广成员曾服务过的品牌</div>
 		<div class="row">
 			<div class="span12">
@@ -206,7 +206,7 @@ $pages = $G_CONF['pages'];
 	</div>
 	<div id="about">
 		<section class="container"> 
-			<a name="about"></a>
+			<a name="about" class="jqscroll"></a>
 			<div class="row">
 				<div class="sectitle span2">／ 聚广团队</div>
 				<div class="span12" id="info">
