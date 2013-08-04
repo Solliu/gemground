@@ -42,7 +42,6 @@ get_header();
 				) ); ?>
 				</ul>
 			</aside>
-
 			<ul class="work-list span10">
 <?php
 	foreach( $posts as $post ) : 
@@ -59,8 +58,8 @@ get_header();
 		if (has_post_thumbnail()) : ?>
 				<li class="work-thumb span3">
 					<a href="<?php the_permalink(); ?>">
-						<span class="work-title"><?php the_title(); ?></span>
 						<?php echo $thumbnail; ?>
+						<span class="work-title"><?php the_title(); ?></span>
 					</a>
 				</li>
 <?php 	else: ?>
