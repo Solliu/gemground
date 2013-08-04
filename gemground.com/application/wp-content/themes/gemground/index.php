@@ -6,10 +6,11 @@ $pages = $G_CONF['pages'];
 ?>	
 	<div id="banner" >
 		<div class="carousel slide container">
+			<a name="home" href="#"></a>
 		  <div class="item"><img src="<?php echo $homeurl; ?>data/images/banner01.png"></div>
 		  <div class="row more">
 				<div class="span12">
-					<a href="./point">查看详细 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/point">查看详细 ／／</a>
 				</div>
 			</div>
 		</div>
@@ -56,7 +57,7 @@ $pages = $G_CONF['pages'];
 			</div>
 			<div class="row more">
 				<div class="span12">
-					<a href="./services">全部服务 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/services">全部服务 ／／</a>
 				</div>
 			</div>
 		</section>
@@ -158,7 +159,7 @@ $pages = $G_CONF['pages'];
 			</div>
 			<div class="row more">
 				<div class="span12">
-					<a href="./services">全部服务 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/services">全部服务 ／／</a>
 				</div>
 			</div>
 	</section>
@@ -198,7 +199,7 @@ $pages = $G_CONF['pages'];
 		</div>
 		<div class="row more">
 				<div class="span12">
-					<a href="./works">更多案例 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/works">更多案例 ／／</a>
 				</div>
 			</div>
 	</section>
@@ -226,7 +227,7 @@ $pages = $G_CONF['pages'];
 
 			<div class="row more">
 				<div class="span12">
-					<a href="./about">关于我们 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/about">关于我们 ／／</a>
 				</div>
 			</div>
 		</section>
