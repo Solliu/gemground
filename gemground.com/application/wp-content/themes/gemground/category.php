@@ -4,10 +4,13 @@
  *
  *
  ****/
+$paths     = explode('/', $wp->request);
+$cat = get_category_by_slug($paths[count($paths)-1]);
+
 $posts = get_posts(array(
 	'posts_per_page'  => 10,
 	'offset'          => 0,
-	'category'        => GEM_WORK_CATEGORY_ID,
+	'category'        => $cat->cat_ID, //GEM_WORK_CATEGORY_ID,
 	'orderby'         => 'post_date',
 	'order'           => 'DESC',
 	'include'         => '',
@@ -20,6 +23,8 @@ $posts = get_posts(array(
 	'post_status'     => 'publish',
 	'suppress_filters' => true 
 ));
+
+
 get_header();
 ?>
 
@@ -44,32 +49,40 @@ get_header();
 			</aside>
 			<ul class="work-list span10">
 <?php
-	foreach( $posts as $post ) : 
-		setup_postdata($post);
-		//
-		$thumbnail = get_the_post_thumbnail(
-			$post->ID, 
-			array(400,400),  // set thumb image size
-			array(
-				'alt'    =>get_the_title($post->ID),
-				'title'  =>get_the_title($post->ID)
-			)
-		);
-		if (has_post_thumbnail()) : ?>
-				<li class="work-thumb span3">
+	if ($posts) :
+		foreach( $posts as $post ) : 
+			setup_postdata($post);
+			//
+			$thumbnail = get_the_post_thumbnail(
+				$post->ID, 
+				array(980,400),  // set thumb image size
+				array(
+					'alt'    =>get_the_title($post->ID),
+					'title'  =>get_the_title($post->ID)
+				)
+			);
+			if (has_post_thumbnail()) : 
+
+?>				<li class="work-thumb span3">
 					<a href="<?php the_permalink(); ?>">
 						<?php echo $thumbnail; ?>
 						<span class="work-title"><?php the_title(); ?></span>
 					</a>
 				</li>
-<?php 	else: ?>
+<?php 		else: ?>
 				<li class="work-thumb">
 					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 				</li>
-<?php 	endif; ?>
-<?php endforeach; ?>
-			</ul>
-		</span>
+<?php 		endif;
+		 endforeach;
+	else: ?>
+				<li class="work-thumb span3">
+					
+						<span class="work-title">Case not found!</span>
+						
+				</li>
+<?php endif; ?>
+		</ul>
 	</section>
 </div>
 
