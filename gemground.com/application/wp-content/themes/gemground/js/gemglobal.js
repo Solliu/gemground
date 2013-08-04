@@ -43,6 +43,8 @@ $(function (){
 	
 	/* handle main nav */
 	$('.mainnav .nav a, #flow .backtotop').click(function (){
+		if (!$('body').hasClass('home')) return true;
+
 		var anchor = $(this).attr('href');
 		$.scrollTo('a[name='+anchor.substr(anchor.lastIndexOf('#')+1)+']', 500, null);
 		return false;
