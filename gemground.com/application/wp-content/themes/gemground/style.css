@@ -301,11 +301,10 @@ footer img{
   .work-thumb .work-title{font-size:16px;line-height:1.6em;display: block;}
 .attachment-400x400{width:100%;}
 .work-title{padding-top: 5px;}
-#nav-single{margin:30px 0 10px;}
+#nav-single{margin:30px 0 10px;height:30px;}
 
 /**scrolltop**/
 .backtotop,.qq{
-  display: none;
   height: 38px;  /* Height of image */
   width: 38px; /* Width of image */
   filter: alpha(opacity=50);

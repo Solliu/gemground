@@ -202,7 +202,7 @@ $pages = $G_CONF['pages'];
 		</a>
 		<div class="row more">
 				<div class="span12">
-					全部客户及案例 ／／
+					<a href="<?php echo $homeurl; ?>cat/works">全部客户及案例 ／／</a>
 				</div>
 			</div>
 	</section>

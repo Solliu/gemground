@@ -3,7 +3,6 @@ $(function (){
 	wh = $(window).height(),
 	nav_style = 'a',
 	btn_back2top = $('#flow .backtotop').css('display', 'none');
-	btn_qq = $('#flow .qq').css('display', 'none');
 
 	var _hdl_scroll = function (){
 		var top = $(window).scrollTop(),
@@ -35,15 +34,9 @@ $(function (){
 			if (btn_back2top.css('display') == 'none') {
 				btn_back2top.css('display', 'block');
 			}
-			if (btn_qq.css('display') == 'none') {
-				btn_qq.css('display', 'block');
-			}
 		}else{
 			if (btn_back2top.css('display') == 'block') {
 				btn_back2top.css('display', 'none');
-			}
-			if (btn_qq.css('display') == 'block') {
-				btn_qq.css('display', 'none');
 			}
 		}
 	};
@@ -56,7 +49,6 @@ $(function (){
 		var anchor = $(this).attr('href');
 		anchor = anchor.substr(anchor.lastIndexOf('#')+1);
 		$.scrollTo('a[name='+ anchor +']', 500, null);
-		// document.location.hash = anchor
 		return false;
 	});
 
