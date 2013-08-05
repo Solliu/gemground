@@ -1,7 +1,7 @@
 	<div>
 		<ul id="flow" class="span1">
-			<li><a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=721796808&site=qq&menu=yes"></a></li>
-			<li><a id="scrollUp" class="backtotop" href="#home"></a></li>
+			<li><a id="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=721796808&site=qq&menu=yes" title="点击咨询"></a></li>
+			<li><a id="backtotop" class="jqscroll"href="#home"></a></li>
 		</ul>
 	</div>
 <footer>
@@ -9,10 +9,11 @@
 		<div class="row">
 			<div id="sitemap" class="span2">
 				<h5>站点导航</h5><br/>
-				<a href="">观点与方法</a><br/>
-				<a href="">客户与案例</a><br/>
-				<a href="">关于聚广</a><br/>
-				<a href="">招聘信息</a><br/>
+				<a href="<?php echo $homeurl; ?>cat/point">观点与方法</a><br/>
+				<a href="<?php echo $homeurl; ?>cat/services">产品与服务</a><br/>
+				<a href="<?php echo $homeurl; ?>cat/works">客户与案例</a><br/>
+				<a href="<?php echo $homeurl; ?>cat/about">关于聚广</a><br/>
+				<a href="<?php echo $homeurl; ?>cat/about#joinus">招聘信息</a><br/>
 			</div>
 			<div id="link" class="span2">
 				<h5>合作伙伴</h5><br/>

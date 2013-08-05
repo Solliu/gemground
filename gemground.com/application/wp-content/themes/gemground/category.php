@@ -33,7 +33,9 @@ get_header();
 	<section class="container">
 		<div class="row">
 			<aside class="cate-container span2">
+
 				<ul class="cate-list">
+				<li class="cate-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>cat/works">所有案例</a></li>
 <?php 			wp_list_categories( array(
 					'show_count'         => 0,
 					'hide_empty'         => 0,

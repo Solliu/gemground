@@ -41,9 +41,9 @@
 			</div>
 		</section>
 	</div>
-		<div id="pointofview">
+	<div id="process">
 	<section class="container">
-		<a name="pointofview" class="jqscroll"></a>
+		<a name="process" class="jqscroll"></a>
 			<div class="sectitle">／ 服务流程</div>
 			<div class="row">
 				<div class="span12">
@@ -135,13 +135,90 @@
 						</li>
 					</ul>
 				</div>
-			</div>
-			<div class="row more">
-				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/services">全部产品及服务 ／／</a>
-				</div>
-			</div>
+			</div>	
 	</section>
 	</div>
+	<div id="price" >
+		<section class="container">
+			<a name="price" href="#"></a>
+			<div class="sectitle">／ 常规服务</div>
+			<div class="row">
+				<table class="span12" border="1" style="text-align:center;">
+					<tr><th colspan="7">常规服务项目</th></tr>
+					<tr><td colspan="4">项目列表</td><td class="price-type">A</td><td class="price-type">B</td><td class="price-type">C</td></tr>
+					<!--品牌服务-->
+					<tr><td rowspan="21">品牌服务</td>
+						<td rowspan="3">品牌分析</td><td colspan="2">品牌健康度</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌健康度</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌健康度</td><td></td><td></td><td></td></tr>
+						<!--品牌战略定位-->
+					<tr><td rowspan="3">品牌战略定位</td>
+						<td colspan="2">品牌定位</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌架构</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌治理制度</td><td></td><td></td><td></td></tr>
+						<!--语词识别系统-->
+					<tr><td rowspan="3">语词识别系统</td>
+						<td colspan="2">品牌命名</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">广告语</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">语词矩阵</td><td></td><td></td><td></td></tr>
+						<!--视觉识别系统-->
+					<tr><td rowspan="3">视觉识别系统</td>
+						<td colspan="2">LOGO 设计</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌视觉系统</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">应用视觉系统</td><td></td><td></td><td></td></tr>
+						<!--品牌传播与体验-->
+					<tr><td rowspan="4">品牌传播与体验</td>
+						<td colspan="2">内外传播策略</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌包装设计</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">智能会展</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">接触点优化</td><td></td><td></td><td></td></tr>
+						<!--新品牌的导入-->
+					<tr><td rowspan="5">新品牌的导入</td>
+						<td colspan="2">内部激活建议</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">部启动计划</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">换标建议</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">品牌启动手册</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">新品牌的传播跟踪</td><td></td><td></td><td></td></tr>
+					<!--品牌服务报价-->
+					<tr class="price-num"><td colspan="4">报价</td><td></td><td></td><td></td></tr>
+					<!--数字服务-->
+					<tr><td rowspan="26">数字服务</td>
+						<td rowspan="3">数据分析业务</td><td colspan="2">数据收集</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">数据清洗</td><td></td><td></td><td></td></tr>
+					<tr><td colspan="2">数据分析报告</td><td></td><td></td><td></td></tr>
+						<!--互动业务-->
+					<tr><td rowspan="14">互动业务</td><td rowspan="4">网站设计</td><td>企业网站</td><td></td><td></td><td></td>
+					</tr>
+					<tr><td>电商平台</td><td></td><td></td><td></td></tr>
+					<tr><td>MiniSite</td><td></td><td></td><td></td></tr>
+					<tr><td>移动网络</td><td></td><td></td><td></td></tr>
+					<tr><td rowspan="5">APP</td>
+					<td>企业管理</td><td></td><td></td><td></td></tr>
+					<tr><td>销售展示</td><td></td><td></td><td></td></tr>
+					<tr><td>资讯阅读</td><td></td><td></td><td></td></tr>
+					<tr><td>社交类应用</td><td></td><td></td><td></td></tr>
+					<tr><td>工具类</td><td></td><td></td><td></td></tr>
+					<tr><td rowspan="5">视频动画服务</td>
+					<td>企业宣传片</td><td></td><td></td><td></td></tr>
+					<tr><td>TVC</td><td></td><td></td><td></td></tr>
+					<tr><td>微电影</td><td></td><td></td><td></td></tr>
+					<tr><td>病毒视频</td><td></td><td></td><td></td></tr>
+					<tr><td>二维演示动画</td><td></td><td></td><td></td></tr>
+					<tr><td rowspan="9">ERP</td><td rowspan="4">微博推广</td><td>品牌官方微博搭建</td><td></td><td></td><td></td>
+					</tr>
+					<tr><td>日常文案运营</td><td></td><td></td><td></td></tr>
+					<tr><td>微博活动推广</td><td></td><td></td><td></td></tr>
+					<tr><td>KOL（微博大号）推广</td><td></td><td></td><td></td></tr>
+					<td rowspan="3">微信传播</td><td>回复规则设置</td><td></td><td></td><td></td>
+					</tr>
+					<tr><td>活动推送</td><td></td><td></td><td></td></tr>
+					<tr><td>粉丝互动</td><td></td><td></td><td></td></tr>
+					<td rowspan="2">病毒传播</td><td>病毒视频策划</td><td></td><td></td><td></td>
+					</tr>
+					<tr><td>热点事件结合</td><td></td><td></td><td></td></tr>
+				</table>
+			</div>
 
+		</section>
+	</div>
 <?php get_footer(); ?>

@@ -5,7 +5,7 @@ $G_CONF = array(
 	'navigation' => array(
 		'首页' => $homeurl . '#home',
     '观点与方法' => $homeurl . '#point',
-		'服务与流程' => $homeurl . '#services',
+		'产品与服务' => $homeurl . '#services',
 		'客户与案例' => $homeurl . '#clients',
 		'关于我们' => $homeurl . '#about',
 	),
@@ -112,4 +112,4 @@ foreach ($G_CONF['navigation'] as $name => $link)
     </div>
     <!-- Menu style B End-->
   </header>
-  <div class="header-expand" name="home"></div>
+  <div class="header-expand" ><a class="jqscroll" name="home"></a></div>

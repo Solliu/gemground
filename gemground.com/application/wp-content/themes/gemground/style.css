@@ -102,18 +102,21 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
   margin-bottom: 0px;
 }
 /* Banner */
-#point,#service,#clients,#about{
-  padding-top: 60px;
+#point,#services,#clients,#about,#process,#price{
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 /* pointofview */
-#pointofview{
+#process{
   background-color: #14b28f;
 }
 #pointofview > .container > .row > .span4 {text-align:center;}
 /* services */
 #services{
   background-color: #e8bd25;
+}
+#services a,#services a:hover{
+  color: #444;
 }
 #services img{margin:0 10px;vertical-align:middle;}
 .serv-steps{text-align:center;color:#FFF;}
@@ -155,6 +158,17 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
   font-size: 13px;
   text-align: center;
   padding: 5px 0px 5px 0px;
+}
+#price table{
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#price table th,.price-num{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.price-type{
+  width: 5%;
 }
 /* clients area */
 #clients{
@@ -264,9 +278,8 @@ footer img{
   color: #fff;
 }
 #flow li{
-  line-height: 20px;
   text-align: center;
-  padding: 5px;
+  height: 80px;
 }
 
 #cr{
@@ -279,13 +292,14 @@ footer img{
 
 /*** Work style ***/
 .cate-container {margin-top:50px;margin-bottom:50px;}
+.cate-title > a{font-size: 16px;font-weight: bold;background-color: #fff;}
 .cate-list a{text-decoration: none;color:#FFF;}
 .cate-list{background-color:#FFF;}
 .cate-list .cat-item{width:100%;}
-.cate-list > li > a{color:#B5193C;display:block;background:#efefef;padding:10px 0px 10px 10px;text-decoration:none;cursor:default;}
+.cate-list > li > a{color:#B5193C;display:block;border-bottom:1px solid #cdcdcd;padding:10px 0px 10px 10px;text-decoration:none;cursor:default;}
 .cate-list ul{margin:0.5em 0;}
 .cate-list .children a{color:#000;display:block;padding-left: 2em;line-height:2em;}
-.cate-list .children a:hover{color:#FFF;background-color:#B5193C;}
+.cate-list .children a:hover{color:#B5193C;}
 
 #works{
   min-height: 720px;
@@ -304,29 +318,33 @@ footer img{
 #nav-single{margin:30px 0 10px;height:30px;}
 
 /**scrolltop**/
-.backtotop,.qq{
+#backtotop,#qq{
   height: 38px;  /* Height of image */
   width: 38px; /* Width of image */
   filter: alpha(opacity=50);
   -moz-opacity:0.5;
   opacity: 0.5;
-  margin-left: 10px;
+  display: block;
+  transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s; /* Firefox 4 */
+  -webkit-transition: opacity 0.5s; /* Safari 和 Chrome */
+  -o-transition: opacity 0.5s; /* Opera */
 }
-.backtotop:hover,.qq:hover{
+#backtotop:hover,#qq:hover{
   filter: alpha(opacity=100);
   -moz-opacity:1;
   opacity:1;
 }
-.backtotop{
+#backtotop{
   background: url("images/top.png") no-repeat;
 }
-.qq{
+#qq{
   background: url("images/qq.png") no-repeat;  
 }
 
 /*single*/
 #content{
-  padding: 10px;
+  padding: 3%;
   background-color: #fff;
 }
 .nav-previous a,.nav-next a{

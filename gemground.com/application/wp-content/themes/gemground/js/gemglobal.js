@@ -2,7 +2,8 @@ $(function (){
 	var ww = $(window).width(),
 	wh = $(window).height(),
 	nav_style = 'a',
-	btn_back2top = $('#flow .backtotop').css('display', 'none');
+	btn_back2top = $('#flow #backtotop').css('display', 'none');
+	btn_qq = $('#flow #qq').css('display', 'none');
 
 	var _hdl_scroll = function (){
 		var top = $(window).scrollTop(),
@@ -26,7 +27,7 @@ $(function (){
 		// adjust 
 		var p=$('footer').offset().top - 140,
 		flow = $('#flow'),
-		of = flow.offset(),
+		of = $(window).width() - 200,
 		np = top+$(window).height()-140;
 		np = np > p ? p : np;
 		flow.offset({top:np,left:of.left});
@@ -37,6 +38,15 @@ $(function (){
 		}else{
 			if (btn_back2top.css('display') == 'block') {
 				btn_back2top.css('display', 'none');
+			}
+		}
+		if (top > (winh * 0.5)) {
+			if (btn_qq.css('display') == 'none') {
+				btn_qq.css('display', 'block');
+			}
+		}else{
+			if (btn_qq.css('display') == 'block') {
+				btn_qq.css('display', 'none');
 			}
 		}
 	};

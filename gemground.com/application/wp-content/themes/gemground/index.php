@@ -55,6 +55,11 @@ $pages = $G_CONF['pages'];
 					<li><span>精细化、低成本，信息交换更便捷，会展效果更持久</span></li>
 				</div>
 			</div>
+			<div class="row more">
+				<div class="span12">
+					<a href="<?php echo $homeurl; ?>cat/works">全部服务及流程 ／／</a>
+				</div>
+			</div>
 			</a>
 			<!--<div class="row more">
 				<div class="span12">
@@ -202,9 +207,9 @@ $pages = $G_CONF['pages'];
 		</a>
 		<div class="row more">
 				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/works">全部客户及案例 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/works">全部案例 ／／</a>
 				</div>
-			</div>
+		</div>
 	</section>
 	
 	</div>
