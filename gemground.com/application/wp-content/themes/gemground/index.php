@@ -55,11 +55,11 @@ $pages = $G_CONF['pages'];
 					<li><span>精细化、低成本，信息交换更便捷，会展效果更持久</span></li>
 				</div>
 			</div>
-			<div class="row more">
+			<!--<div class="row more">
 				<div class="span12">
 					<a href="<?php echo $homeurl; ?>cat/services">全部服务 ／／</a>
 				</div>
-			</div>
+			</div>-->
 		</section>
 	</div>
 	<div id="pointofview">
@@ -159,15 +159,17 @@ $pages = $G_CONF['pages'];
 			</div>
 			<div class="row more">
 				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/services">全部服务 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/services">全部产品及服务 ／／</a>
 				</div>
 			</div>
 	</section>
 	</div>
 	<div id="clients">
+	
 	<section class="container">
 		<a name="clients" class="jqscroll"></a>
 		<div class="sectitle">／ 聚广成员曾服务过的品牌</div>
+		<a href="<?php echo $homeurl; ?>cat/works">
 		<div class="row">
 			<div class="span12">
 			<ul class="clients-list">
@@ -197,16 +199,19 @@ $pages = $G_CONF['pages'];
 			</ul>
 			</div>
 		</div>
+		</a>
 		<div class="row more">
 				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/works">更多案例 ／／</a>
+					全部客户及案例 ／／
 				</div>
 			</div>
 	</section>
+	
 	</div>
 	<div id="about">
 		<section class="container"> 
 			<a name="about" class="jqscroll"></a>
+			<a href="<?php echo $homeurl; ?>cat/about">
 			<div class="row">
 				<div class="sectitle span2">／ 聚广团队</div>
 				<div class="span12" id="info">
@@ -216,7 +221,7 @@ $pages = $G_CONF['pages'];
 					<p>品牌咨询｜标志设计｜VI 设计｜网站设计｜APP 设计｜微信营销</p>
 				</div>
 			</div>
-
+			</a>
 			<div id="memlist" class="row">
 				<li class="span2 offset1"><a class="teamicon team-11" target="_blank" href="http://weibo.com/lemo11"></a></li>
 				<li class="span2"><a class="teamicon team-gozi" target="_blank" href="http://weibo.com/ziv84"></a></li>
