@@ -4,8 +4,9 @@ $G_CONF = array(
 	'site_title' => '聚广传播｜品牌数字营销',
 	'navigation' => array(
 		'首页' => $homeurl . '#home',
-		'服务与方法' => $homeurl . '#pointofview',
-		'案例经验' => $homeurl . '#clients',
+    '观点与方法' => $homeurl . '#point',
+		'服务与流程' => $homeurl . '#services',
+		'客户与案例' => $homeurl . '#clients',
 		'关于我们' => $homeurl . '#about',
 	),
 
@@ -111,4 +112,4 @@ foreach ($G_CONF['navigation'] as $name => $link)
     </div>
     <!-- Menu style B End-->
   </header>
-  <div class="header-expand"></div>
+  <div class="header-expand" name="home"></div>

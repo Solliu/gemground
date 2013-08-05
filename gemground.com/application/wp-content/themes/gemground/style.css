@@ -79,7 +79,10 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 /* Theme end*/
 
 /**/
-#banner{
+#point{
+  background-color: #efefef;
+}
+#point02{
   background: #101535;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -99,8 +102,8 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
   margin-bottom: 0px;
 }
 /* Banner */
-#pointofview,#service,#clients,#about{
-  padding-top: 80px;
+#point,#service,#clients,#about{
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 /* pointofview */
@@ -109,10 +112,10 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 }
 #pointofview > .container > .row > .span4 {text-align:center;}
 /* services */
-#service{
+#services{
   background-color: #e8bd25;
 }
-#service img{margin:0 10px;vertical-align:middle;}
+#services img{margin:0 10px;vertical-align:middle;}
 .serv-steps{text-align:center;color:#FFF;}
 .serv-step{display:inline-block;width:160px;margin:0 15px;vertical-align:top;}
   .serv-step-phase{color:#23A98E;width:140px;height:90px;padding:70px 10px 0 10px;background:#FFF;border-radius:80px;
@@ -156,15 +159,13 @@ ul[class=slidesjs-pagination] .slidesjs-pagination-item .active{background:#B519
 /* clients area */
 #clients{
   background-color: #fff;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 .clients-list{text-align: center;}
 .clients-list li{display:inline-block;padding: 30px 30px 20px 30px;}
 
 /* about */
 #about{
-  background-color: #444;
+  background-color: #B5193C;
   color: #fff;
 }
 #about-sub{
