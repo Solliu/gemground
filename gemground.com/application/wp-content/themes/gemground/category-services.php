@@ -41,5 +41,107 @@
 			</div>
 		</section>
 	</div>
+		<div id="pointofview">
+	<section class="container">
+		<a name="pointofview" class="jqscroll"></a>
+			<div class="sectitle">／ 服务流程</div>
+			<div class="row">
+				<div class="span12">
+					<ul class="serv-steps">
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>1</span></div>
+							<h4 style="letter-spacing:2px;">品牌分析和定位</h4>
+							<ul class="serv-step-start">
+								<li>桌面研究</li>
+								<li>高层访谈</li>
+								<li>行业分析</li>
+								<li>市场调研</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>目标市场定位</li>
+								<li>主品牌定位</li>
+								<li>品牌架构策略方向建议</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>2</span></div>
+							<h4>品牌架构识别建议</h4>
+							<ul class="serv-step-start">
+								<li>品牌标识和视觉概念发展</li>
+								<li>命名和规范发展</li>
+								<li>标识语,信息矩阵</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>视觉、命名、标识语建议报告</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>3</span></div>
+							<h4>品牌识别完善完稿</h4>
+							<ul class="serv-step-start">
+								<li>视觉识别调整</li>
+								<li>商标预检检索</li>
+								<li>视觉识别完善</li>
+								<li>视觉识别手册</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>视觉识别手册</li>
+								<li>品牌命名</li>
+								<li>品牌标识语</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>4</span></div>
+							<h4 style="letter-spacing:-1px;">接触点<span style="letter-spacing:-12px;">、</span>制度和培训</h4>
+							<ul class="serv-step-start">
+								<li>品牌接触点规划</li>
+								<li>品牌管理制度</li>
+								<li>培训</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>品牌接触点规划</li>
+								<li>品牌管理制度</li>
+								<li>培训</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+						<li class="serv-step">
+							<div class="serv-step-phase">PHASE<span>5</span></div>
+							<h4 style="letter-spacing:6px;">品牌传播系统</h4>
+							<ul class="serv-step-start">
+								<li>品牌传播</li>
+								<li>品牌营销</li>
+								<li>品牌推广</li>
+							</ul>
+							<div class="serv-step-flow">提交成果</div>
+							<ul class="serv-step-result">
+								<li>品牌传播</li>
+								<li>品牌营销</li>
+								<li>品牌推广</li>
+							</ul>
+							<div class="serv-step-cl"></div>
+							<div class="serv-step-cr"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row more">
+				<div class="span12">
+					<a href="<?php echo $homeurl; ?>cat/services">全部产品及服务 ／／</a>
+				</div>
+			</div>
+	</section>
+	</div>
 
 <?php get_footer(); ?>

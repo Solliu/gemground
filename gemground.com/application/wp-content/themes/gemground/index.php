@@ -4,22 +4,22 @@ get_header();
 
 $pages = $G_CONF['pages'];
 ?>	
-	<div id="banner" >
-		<div class="carousel slide container">
-			<a name="home" class="jqscroll" style="top:-90px;"></a>
-		  <div class="item"><img src="<?php echo $homeurl; ?>data/images/banner01.png"></div>
-		  <div class="row more">
-				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/point">查看详细 ／／</a>
-				</div>
-			</div>
+	<div id="point">
+		<div class="carousel container">
+			<a name="point" class="jqscroll" style="top:-90px;"></a>
+		  <div class="item"><a href="<?php echo $homeurl; ?>cat/point"><img src="<?php echo $homeurl; ?>data/images/point.png"></a></div>
 		</div>
-		
 	</div>
-	<div id="service" >
+	<div id="point02" >
+		<div class="carousel container">
+		  <div class="item"><a href="<?php echo $homeurl; ?>cat/point"><img src="<?php echo $homeurl; ?>data/images/banner01.png"></a></div>
+		</div>
+	</div>
+	<div id="services" >
 		<section class="container">
-			<a name="service" class="jqscroll"></a>
+			<a name="services" class="jqscroll"></a>
 			<div class="sectitle">／ 核心产品</div>
+			<a href="<?php echo $homeurl; ?>cat/services">
 			<div class="row" id="products">
 				<div class="span3 offset1">
 					<li><h3>「快塑」</h3></li>
@@ -55,16 +55,16 @@ $pages = $G_CONF['pages'];
 					<li><span>精细化、低成本，信息交换更便捷，会展效果更持久</span></li>
 				</div>
 			</div>
-			<div class="row more">
+			</a>
+			<!--<div class="row more">
 				<div class="span12">
 					<a href="<?php echo $homeurl; ?>cat/services">全部服务 ／／</a>
 				</div>
-			</div>
+			</div>-->
 		</section>
 	</div>
-	<div id="pointofview">
+	<!--<div id="service">
 	<section class="container">
-		<a name="pointofview" class="jqscroll"></a>
 			<div class="sectitle">／ 服务流程</div>
 			<div class="row">
 				<div class="span12">
@@ -159,15 +159,17 @@ $pages = $G_CONF['pages'];
 			</div>
 			<div class="row more">
 				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/services">全部服务 ／／</a>
+					<a href="<?php echo $homeurl; ?>cat/services">全部产品及服务 ／／</a>
 				</div>
 			</div>
 	</section>
 	</div>
+	-->
 	<div id="clients">
 	<section class="container">
 		<a name="clients" class="jqscroll"></a>
 		<div class="sectitle">／ 聚广成员曾服务过的品牌</div>
+		<a href="<?php echo $homeurl; ?>cat/works">
 		<div class="row">
 			<div class="span12">
 			<ul class="clients-list">
@@ -197,16 +199,19 @@ $pages = $G_CONF['pages'];
 			</ul>
 			</div>
 		</div>
+		</a>
 		<div class="row more">
 				<div class="span12">
-					<a href="<?php echo $homeurl; ?>cat/works">更多案例 ／／</a>
+					全部客户及案例 ／／
 				</div>
 			</div>
 	</section>
+	
 	</div>
 	<div id="about">
 		<section class="container"> 
 			<a name="about" class="jqscroll"></a>
+			<a href="<?php echo $homeurl; ?>cat/about">
 			<div class="row">
 				<div class="sectitle span2">／ 聚广团队</div>
 				<div class="span12" id="info">
@@ -216,7 +221,7 @@ $pages = $G_CONF['pages'];
 					<p>品牌咨询｜标志设计｜VI 设计｜网站设计｜APP 设计｜微信营销</p>
 				</div>
 			</div>
-
+			</a>
 			<div id="memlist" class="row">
 				<li class="span2 offset1"><a class="teamicon team-11" target="_blank" href="http://weibo.com/lemo11"></a></li>
 				<li class="span2"><a class="teamicon team-gozi" target="_blank" href="http://weibo.com/ziv84"></a></li>

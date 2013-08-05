@@ -1,7 +1,7 @@
 	<div>
 		<ul id="flow" class="span1">
-			<li>在线咨询</li>
-			<li><a href="#home" class="backtotop">回到顶部</a></li>
+			<li><a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=721796808&site=qq&menu=yes"></a></li>
+			<li><a id="scrollUp" class="backtotop" href="#home"></a></li>
 		</ul>
 	</div>
 <footer>

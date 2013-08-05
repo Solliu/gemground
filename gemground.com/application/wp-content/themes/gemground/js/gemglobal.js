@@ -3,6 +3,7 @@ $(function (){
 	wh = $(window).height(),
 	nav_style = 'a',
 	btn_back2top = $('#flow .backtotop').css('display', 'none');
+	btn_qq = $('#flow .qq').css('display', 'none');
 
 	var _hdl_scroll = function (){
 		var top = $(window).scrollTop(),
@@ -30,13 +31,19 @@ $(function (){
 		np = top+$(window).height()-140;
 		np = np > p ? p : np;
 		flow.offset({top:np,left:of.left});
-		if (top > (winh * 1.4)) {
+		if (top > (winh * 1.2)) {
 			if (btn_back2top.css('display') == 'none') {
-				btn_back2top.css('display', 'inline');
+				btn_back2top.css('display', 'block');
+			}
+			if (btn_qq.css('display') == 'none') {
+				btn_qq.css('display', 'block');
 			}
 		}else{
-			if (btn_back2top.css('display') == 'inline') {
+			if (btn_back2top.css('display') == 'block') {
 				btn_back2top.css('display', 'none');
+			}
+			if (btn_qq.css('display') == 'block') {
+				btn_qq.css('display', 'none');
 			}
 		}
 	};
