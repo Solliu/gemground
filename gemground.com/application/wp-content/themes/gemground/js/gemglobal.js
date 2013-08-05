@@ -42,14 +42,20 @@ $(function (){
 	};
 	
 	/* handle main nav */
+	var prevhash = null;
 	$('.mainnav .nav a, #flow .backtotop').click(function (){
 		if (!$('body').hasClass('home')) return true;
-
+		
 		var anchor = $(this).attr('href');
-		$.scrollTo('a[name='+anchor.substr(anchor.lastIndexOf('#')+1)+']', 500, null);
+		anchor = anchor.substr(anchor.lastIndexOf('#')+1);
+		$.scrollTo('a[name='+ anchor +']', 500, null);
+		// document.location.hash = anchor
 		return false;
 	});
 
+	if(document.location.hash.length > 1){
+		$.scrollTo('a[name='+ document.location.hash.substr(1) +']', 800);
+	}
 
 	$(window).scroll(_hdl_scroll);
 });
